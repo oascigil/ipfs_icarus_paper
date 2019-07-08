@@ -1,0 +1,4806 @@
+
+# Directory where this script is located
+CURR_DIR=`pwd`
+pwd
+
+# Icarus main folder
+ICARUS_DIR=${CURR_DIR}/../..
+
+# Dir where plots will be saved 
+PLOTS_DIR=${CURR_DIR}/plots
+
+# Config file
+CONFIG_FILE=${CURR_DIR}/config_zipf.py
+
+# FIle where results will be saved
+RESULTS_FILE=${CURR_DIR}/results_zipf.pickle
+
+# Add Icarus code to PYTHONPATH
+export PYTHONPATH=${ICARUS_DIR}:$PYTHONPATH
+
+# Run experiments
+echo "Run experiments"
+Run experiments
+python ${ICARUS_DIR}/icarus.py --results ${RESULTS_FILE} ${CONFIG_FILE}
+[00:26:19 2019-05-14|INFO|main] Launching orchestrator
+[00:26:19 2019-05-14|INFO|orchestration] Starting simulations: 20 experiments, 12 process(es)
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-2] Experiment 2/20 | Preparing scenario: strategy: OPTIMAL alpha 0.25
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-2] Experiment 2/20 | Start simulation
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-3] Experiment 3/20 | Preparing scenario: strategy: OPTIMAL alpha 0.5
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-3] Experiment 3/20 | Start simulation
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-1] Experiment 1/20 | Preparing scenario: strategy: OPTIMAL alpha 0.1
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-1] Experiment 1/20 | Start simulation
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-11] Experiment 11/20 | Preparing scenario: strategy: NDN_MEASUREMENT alpha 0.1
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-11] Experiment 11/20 | Start simulation
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-5] Experiment 5/20 | Preparing scenario: strategy: OPTIMAL alpha 1.0
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-5] Experiment 5/20 | Start simulation
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-6] Experiment 6/20 | Preparing scenario: strategy: NDN alpha 0.1
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-6] Experiment 6/20 | Start simulation
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-8] Experiment 8/20 | Preparing scenario: strategy: NDN alpha 0.5
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-8] Experiment 8/20 | Start simulation
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-7] Experiment 7/20 | Preparing scenario: strategy: NDN alpha 0.25
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-7] Experiment 7/20 | Start simulation
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-4] Experiment 4/20 | Preparing scenario: strategy: OPTIMAL alpha 0.75
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-4] Experiment 4/20 | Start simulation
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-9] Experiment 9/20 | Preparing scenario: strategy: NDN alpha 0.75
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-9] Experiment 9/20 | Start simulation
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-10] Experiment 10/20 | Preparing scenario: strategy: NDN alpha 1.0
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-10] Experiment 10/20 | Start simulation
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-12] Experiment 12/20 | Preparing scenario: strategy: NDN_MEASUREMENT alpha 0.25
+[00:26:19 2019-05-14|INFO|runner-PoolWorker-12] Experiment 12/20 | Start simulation
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+[01:39:55 2019-05-14|INFO|runner-PoolWorker-3] Experiment 3/20 | End simulation | Duration 1h 13m 36s.
+[01:40:01 2019-05-14|INFO|runner-PoolWorker-3] Experiment 13/20 | Preparing scenario: strategy: NDN_MEASUREMENT alpha 0.5
+[01:40:01 2019-05-14|INFO|runner-PoolWorker-3] Experiment 13/20 | Start simulation
+End of iteration: len(eventObj): 0
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+[01:42:00 2019-05-14|INFO|runner-PoolWorker-2] Experiment 2/20 | End simulation | Duration 1h 15m 41s.
+[01:42:01 2019-05-14|INFO|runner-PoolWorker-2] Experiment 14/20 | Preparing scenario: strategy: NDN_MEASUREMENT alpha 0.75
+[01:42:01 2019-05-14|INFO|runner-PoolWorker-2] Experiment 14/20 | Start simulation
+[01:42:08 2019-05-14|INFO|runner-PoolWorker-1] Experiment 1/20 | End simulation | Duration 1h 15m 49s.
+[01:42:09 2019-05-14|INFO|runner-PoolWorker-1] Experiment 15/20 | Preparing scenario: strategy: NDN_MEASUREMENT alpha 1.0
+[01:42:09 2019-05-14|INFO|runner-PoolWorker-1] Experiment 15/20 | Start simulation
+End of iteration: len(eventObj): 0
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+End of iteration: len(eventObj): 0
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+[01:47:00 2019-05-14|INFO|runner-PoolWorker-4] Experiment 4/20 | End simulation | Duration 1h 20m 41s.
+[01:47:00 2019-05-14|INFO|orchestration] SUMMARY | Completed: 4, Failed: 0, Scheduled: 16, ETA: 1h 41m
+[01:47:00 2019-05-14|INFO|runner-PoolWorker-4] Experiment 16/20 | Preparing scenario: strategy: IPFS alpha 0.1
+[01:47:00 2019-05-14|INFO|runner-PoolWorker-4] Experiment 16/20 | Start simulation
+End of iteration: len(eventObj): 0
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+[02:04:02 2019-05-14|INFO|runner-PoolWorker-5] Experiment 5/20 | End simulation | Duration 1h 37m 43s.
+[02:04:02 2019-05-14|INFO|runner-PoolWorker-5] Experiment 17/20 | Preparing scenario: strategy: IPFS alpha 0.25
+[02:04:02 2019-05-14|INFO|runner-PoolWorker-5] Experiment 17/20 | Start simulation
+End of iteration: len(eventObj): 0
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+Content advertisement at time: 5.00000081518
+Content advertisement at time: 10.0000052927
+Content advertisement at time: 15.0000249423
+Content advertisement at time: 20.0000249423
+Content advertisement at time: 25.0000249423
+Content advertisement at time: 30.0000249423
+Content advertisement at time: 35.0000249423
+Content advertisement at time: 40.0000249423
+Content advertisement at time: 45.0000249423
+Content advertisement at time: 50.0000249423
+Content advertisement at time: 55.0000249423
+Content advertisement at time: 60.0000249423
+Content advertisement at time: 65.0000249423
+Content advertisement at time: 70.0000255732
+Content advertisement at time: 75.0000316874
+Content advertisement at time: 80.0000316874
+Content advertisement at time: 85.0000576772
+Content advertisement at time: 90.0000626078
+Content advertisement at time: 95.0000852227
+Content advertisement at time: 100.000098153
+Content advertisement at time: 105.000128375
+Content advertisement at time: 110.000135966
+Content advertisement at time: 115.000139228
+Content advertisement at time: 120.000139228
+Content advertisement at time: 125.000158875
+Content advertisement at time: 130.000162824
+Content advertisement at time: 135.000172697
+Content advertisement at time: 140.00017635
+Content advertisement at time: 145.000218104
+Content advertisement at time: 150.000228689
+Content advertisement at time: 155.000233451
+Content advertisement at time: 160.000300314
+Content advertisement at time: 165.000305416
+Content advertisement at time: 170.000318813
+Content advertisement at time: 175.000355255
+Content advertisement at time: 180.000374421
+Content advertisement at time: 185.000381498
+Content advertisement at time: 190.000408107
+Content advertisement at time: 195.000435628
+Content advertisement at time: 200.000473874
+Content advertisement at time: 205.000500058
+Content advertisement at time: 210.000535303
+Content advertisement at time: 215.000535681
+Content advertisement at time: 220.000535681
+Content advertisement at time: 225.000586511
+Content advertisement at time: 230.00069367
+Content advertisement at time: 235.000738088
+Content advertisement at time: 240.000738088
+Content advertisement at time: 245.000744508
+Content advertisement at time: 250.000779336
+Content advertisement at time: 255.000779336
+Content advertisement at time: 260.000779336
+Content advertisement at time: 265.000842563
+Content advertisement at time: 270.000879366
+Content advertisement at time: 275.00092508
+Content advertisement at time: 280.000978377
+Content advertisement at time: 285.000978377
+Content advertisement at time: 290.000978377
+Content advertisement at time: 295.000978377
+Content advertisement at time: 300.000978377
+Content advertisement at time: 305.000978377
+Content advertisement at time: 310.000978377
+Content advertisement at time: 315.000978377
+Content advertisement at time: 320.000978377
+Content advertisement at time: 325.000978377
+Content advertisement at time: 330.000978377
+Content advertisement at time: 335.000978377
+Content advertisement at time: 340.000978377
+Content advertisement at time: 345.001038836
+Content advertisement at time: 350.001038836
+Content advertisement at time: 355.001038836
+Content advertisement at time: 360.001038836
+Content advertisement at time: 365.001038836
+Content advertisement at time: 370.001038836
+Content advertisement at time: 375.001038836
+Content advertisement at time: 380.001038836
+Content advertisement at time: 385.001038836
+Content advertisement at time: 390.001038836
+Content advertisement at time: 395.001038836
+Content advertisement at time: 400.001038836
+Content advertisement at time: 405.001038836
+Content advertisement at time: 410.001038836
+Content advertisement at time: 415.001038836
+Content advertisement at time: 420.001038836
+Content advertisement at time: 425.001038836
+Content advertisement at time: 430.001038836
+Content advertisement at time: 435.00104161
+Content advertisement at time: 440.00104161
+Content advertisement at time: 445.00104161
+Content advertisement at time: 450.00104161
+Content advertisement at time: 455.00104161
+Content aContent advertisement at time: 5.00000081518
+Content advertisement at time: 10.0000052927
+Content advertisement at time: 15.0000416046
+Content advertisement at time: 20.0000626078
+Content advertisement at time: 25.0000626078
+Content advertisement at time: 30.0000626078
+Content advertisement at time: 35.0000626078
+Content advertisement at time: 40.0000626078
+Content advertisement at time: 45.0000626078
+Content advertisement at time: 50.0000626078
+Content advertisement at time: 55.0000626078
+Content advertisement at time: 60.0000626078
+Content advertisement at time: 65.0000626078
+Content advertisement at time: 70.0001048931
+Content advertisement at time: 75.0001104821
+Content advertisement at time: 80.0001334372
+Content advertisement at time: 85.0001335923
+Content advertisement at time: 90.000141299
+Content advertisement at time: 95.0001490573
+Content advertisement at time: 100.000154503
+Content advertisement at time: 105.000176941
+Content advertisement at time: 110.000183499
+Content advertisement at time: 115.000192917
+Content advertisement at time: 120.000192917
+Content advertisement at time: 125.000192917
+Content advertisement at time: 130.000199064
+Content advertisement at time: 135.000236776
+Content advertisement at time: 140.000282015
+Content advertisement at time: 145.000370889
+Content advertisement at time: 150.000383563
+Content advertisement at time: 155.000383823
+Content advertisement at time: 160.000397428
+Content advertisement at time: 165.00041119
+Content advertisement at time: 170.000431019
+Content advertisement at time: 175.00044354
+Content advertisement at time: 180.000452746
+Content advertisement at time: 185.000461211
+Content advertisement at time: 190.000502136
+Content advertisement at time: 195.000573298
+Content advertisement at time: 200.000586366
+Content advertisement at time: 205.000718862
+Content advertisement at time: 210.000787753
+Content advertisement at time: 215.000862729
+Content advertisement at time: 220.000902463
+Content advertisement at time: 225.000913844
+Content advertisement at time: 230.000970459
+Content advertisement at time: 235.000970459
+Content advertisement at time: 240.001042435
+Content advertisement at time: 245.001042435
+Content advertisement at time: 250.001083249
+Content advertisement at time: 255.001090507
+Content advertisement at time: 260.001254834
+Content advertisement at time: 265.001290384
+Content advertisement at time: 270.001335752
+Content advertisement at time: 275.001403711
+Content advertisement at time: 280.001405418
+Content advertisement at time: 285.001405418
+Content advertisement at time: 290.001407876
+Content advertisement at time: 295.001407876
+Content advertisement at time: 300.001407876
+Content advertisement at time: 305.001407876
+Content advertisement at time: 310.001408822
+Content advertisement at time: 315.001408822
+Content advertisement at time: 320.001408822
+Content advertisement at time: 325.001408822
+Content advertisement at time: 330.001408822
+Content advertisement at time: 335.001408822
+Content advertisement at time: 340.001408822
+Content advertisement at time: 345.001408822
+Content advertisement at time: 350.001408822
+Content advertisement at time: 355.001408822
+Content advertisement at time: 360.001408822
+Content advertisement at time: 365.001408822
+Content advertisement at time: 370.001408822
+Content advertisement at time: 375.001408822
+Content advertisement at time: 380.001408822
+Content advertisement at time: 385.001408822
+Content advertisement at time: 390.001414789
+Content advertisement at time: 395.001414789
+Content advertisement at time: 400.001425599
+Content advertisement at time: 405.001425599
+Content advertisement at time: 410.001425599
+Content advertisement at time: 415.001425599
+Content advertisement at time: 420.001425599
+Content advertisement at time: 425.001425599
+Content advertisement at time: 430.001425599
+Content advertisement at time: 435.001425599
+Content advertisement at time: 440.001425599
+Content advertisement at time: 445.001425599
+Content advertisement at time: 450.001425599
+Content advertisement at time: 455.001425599
+ContContent advertisement at time: 5.00000081518
+Content advertisement at time: 10.0000052927
+Content advertisement at time: 15.0000249423
+Content advertisement at time: 20.0000249423
+Content advertisement at time: 25.0000249423
+Content advertisement at time: 30.0000249423
+Content advertisement at time: 35.0000249423
+Content advertisement at time: 40.0000249423
+Content advertisement at time: 45.0000249423
+Content advertisement at time: 50.0000249423
+Content advertisement at time: 55.0000249423
+Content advertisement at time: 60.0000249423
+Content advertisement at time: 65.0000249423
+Content advertisement at time: 70.0000255732
+Content advertisement at time: 75.0000576772
+Content advertisement at time: 80.0000626078
+Content advertisement at time: 85.0000656914
+Content advertisement at time: 90.0001114259
+Content advertisement at time: 95.000125886
+Content advertisement at time: 100.000126948
+Content advertisement at time: 105.000129367
+Content advertisement at time: 110.000130443
+Content advertisement at time: 115.000149057
+Content advertisement at time: 120.000162824
+Content advertisement at time: 125.000175391
+Content advertisement at time: 130.000183499
+Content advertisement at time: 135.00018825
+Content advertisement at time: 140.00022736
+Content advertisement at time: 145.000264662
+Content advertisement at time: 150.000288953
+Content advertisement at time: 155.000300314
+Content advertisement at time: 160.000313592
+Content advertisement at time: 165.000338285
+Content advertisement at time: 170.000349181
+Content advertisement at time: 175.000407488
+Content advertisement at time: 180.000467807
+Content advertisement at time: 185.000467807
+Content advertisement at time: 190.0004847
+Content advertisement at time: 195.000505805
+Content advertisement at time: 200.000505805
+Content advertisement at time: 205.000505924
+Content advertisement at time: 210.000513308
+Content advertisement at time: 215.000554913
+Content advertisement at time: 220.000615142
+Content advertisement at time: 225.000627366
+Content advertisement at time: 230.000645638
+Content advertisement at time: 235.000654813
+Content advertisement at time: 240.000672525
+Content advertisement at time: 245.00067713
+Content advertisement at time: 250.000755985
+Content advertisement at time: 255.000756834
+Content advertisement at time: 260.000756834
+Content advertisement at time: 265.000756834
+Content advertisement at time: 270.000756834
+Content advertisement at time: 275.000756834
+Content advertisement at time: 280.000760939
+Content advertisement at time: 285.000760939
+Content advertisement at time: 290.000777982
+Content advertisement at time: 295.000777982
+Content advertisement at time: 300.000777982
+Content advertisement at time: 305.000777982
+Content advertisement at time: 310.000777982
+Content advertisement at time: 315.000777982
+Content advertisement at time: 320.000777982
+Content advertisement at time: 325.000777982
+Content advertisement at time: 330.000777982
+Content advertisement at time: 335.000786398
+Content advertisement at time: 340.000786398
+Content advertisement at time: 345.000786398
+Content advertisement at time: 350.000786398
+Content advertisement at time: 355.000786398
+Content advertisement at time: 360.000786398
+Content advertisement at time: 365.000786398
+Content advertisement at time: 370.000786398
+Content advertisement at time: 375.000786398
+Content advertisement at time: 380.000813776
+Content advertisement at time: 385.000813776
+Content advertisement at time: 390.000813776
+Content advertisement at time: 395.000813776
+Content advertisement at time: 400.000813776
+Content advertisement at time: 405.000813776
+Content advertisement at time: 410.000813776
+Content advertisement at time: 415.000813776
+Content advertisement at time: 420.000813776
+Content advertisement at time: 425.000855744
+Content advertisement at time: 430.000884798
+Content advertisement at time: 435.000897365
+Content advertisement at time: 440.000912893
+Content advertisement at time: 445.000912893
+Content advertisement at time: 450.000912893
+Content advertisement at time: 455.000912893
+ContentContent advertisement at time: 5.00000081518
+Content advertisement at time: 10.0000052927
+Content advertisement at time: 15.0000249423
+Content advertisement at time: 20.0000249423
+Content advertisement at time: 25.0000249423
+Content advertisement at time: 30.0000249423
+Content advertisement at time: 35.0000249423
+Content advertisement at time: 40.0000249423
+Content advertisement at time: 45.0000249423
+Content advertisement at time: 50.0000249423
+Content advertisement at time: 55.0000249423
+Content advertisement at time: 60.0000249423
+Content advertisement at time: 65.0000249423
+Content advertisement at time: 70.0000424352
+Content advertisement at time: 75.0000576772
+Content advertisement at time: 80.0000626078
+Content advertisement at time: 85.0001259232
+Content advertisement at time: 90.0001269481
+Content advertisement at time: 95.0001335923
+Content advertisement at time: 100.000134396
+Content advertisement at time: 105.000149057
+Content advertisement at time: 110.000154503
+Content advertisement at time: 115.000162824
+Content advertisement at time: 120.00018825
+Content advertisement at time: 125.000213279
+Content advertisement at time: 130.000213279
+Content advertisement at time: 135.000217898
+Content advertisement at time: 140.000244354
+Content advertisement at time: 145.000308707
+Content advertisement at time: 150.000323449
+Content advertisement at time: 155.000332399
+Content advertisement at time: 160.000383563
+Content advertisement at time: 165.0004771
+Content advertisement at time: 170.0004771
+Content advertisement at time: 175.000514115
+Content advertisement at time: 180.000520275
+Content advertisement at time: 185.000570298
+Content advertisement at time: 190.000600803
+Content advertisement at time: 195.000632735
+Content advertisement at time: 200.000638146
+Content advertisement at time: 205.000731756
+Content advertisement at time: 210.000779053
+Content advertisement at time: 215.000828789
+Content advertisement at time: 220.000898527
+Content advertisement at time: 225.000917129
+Content advertisement at time: 230.000935209
+Content advertisement at time: 235.000952841
+Content advertisement at time: 240.001001814
+Content advertisement at time: 245.001013748
+Content advertisement at time: 250.001021262
+Content advertisement at time: 255.001031947
+Content advertisement at time: 260.001037313
+Content advertisement at time: 265.001037313
+Content advertisement at time: 270.00108921
+Content advertisement at time: 275.00108921
+Content advertisement at time: 280.00108921
+Content advertisement at time: 285.00108921
+Content advertisement at time: 290.00108921
+Content advertisement at time: 295.00108921
+Content advertisement at time: 300.00108921
+Content advertisement at time: 305.00108921
+Content advertisement at time: 310.00108921
+Content advertisement at time: 315.00108921
+Content advertisement at time: 320.00108921
+Content advertisement at time: 325.00108921
+Content advertisement at time: 330.00108921
+Content advertisement at time: 335.00108921
+Content advertisement at time: 340.00108921
+Content advertisement at time: 345.00108921
+Content advertisement at time: 350.00108921
+Content advertisement at time: 355.00108921
+Content advertisement at time: 360.00108921
+Content advertisement at time: 365.00108921
+Content advertisement at time: 370.00108921
+Content advertisement at time: 375.00108921
+Content advertisement at time: 380.00108921
+Content advertisement at time: 385.00108921
+Content advertisement at time: 390.00108921
+Content advertisement at time: 395.001092063
+Content advertisement at time: 400.001092063
+Content advertisement at time: 405.001095551
+Content advertisement at time: 410.001095551
+Content advertisement at time: 415.001095551
+Content advertisement at time: 420.001101591
+Content advertisement at time: 425.001128582
+Content advertisement at time: 430.001157526
+Content advertisement at time: 435.001201197
+Content advertisement at time: 440.001213279
+Content advertisement at time: 445.001243592
+Content advertisement at time: 450.001243592
+Content advertisement at time: 455.001282934
+Content advertisement at time: Content advertisement at time: 5.00000081518
+Content advertisement at time: 10.0000052927
+Content advertisement at time: 15.0000249423
+Content advertisement at time: 20.0000249423
+Content advertisement at time: 25.0000249423
+Content advertisement at time: 30.0000249423
+Content advertisement at time: 35.0000249423
+Content advertisement at time: 40.0000249423
+Content advertisement at time: 45.0000249423
+Content advertisement at time: 50.0000249423
+Content advertisement at time: 55.0000249423
+Content advertisement at time: 60.0000249423
+Content advertisement at time: 65.0000249423
+Content advertisement at time: 70.0000626078
+Content advertisement at time: 75.000092691
+Content advertisement at time: 80.0001114259
+Content advertisement at time: 85.0001173474
+Content advertisement at time: 90.0001304433
+Content advertisement at time: 95.0001304433
+Content advertisement at time: 100.000133592
+Content advertisement at time: 105.000154503
+Content advertisement at time: 110.000162824
+Content advertisement at time: 115.000162824
+Content advertisement at time: 120.00019158
+Content advertisement at time: 125.000213279
+Content advertisement at time: 130.000219678
+Content advertisement at time: 135.000219887
+Content advertisement at time: 140.000219887
+Content advertisement at time: 145.000271381
+Content advertisement at time: 150.000282015
+Content advertisement at time: 155.000304388
+Content advertisement at time: 160.000323697
+Content advertisement at time: 165.000323697
+Content advertisement at time: 170.000333755
+Content advertisement at time: 175.000367169
+Content advertisement at time: 180.000369028
+Content advertisement at time: 185.000397497
+Content advertisement at time: 190.000425942
+Content advertisement at time: 195.000436536
+Content advertisement at time: 200.000436536
+Content advertisement at time: 205.000449649
+Content advertisement at time: 210.0004771
+Content advertisement at time: 215.0004847
+Content advertisement at time: 220.000485779
+Content advertisement at time: 225.000539855
+Content advertisement at time: 230.000539855
+Content advertisement at time: 235.00056835
+Content advertisement at time: 240.000585729
+Content advertisement at time: 245.000648952
+Content advertisement at time: 250.000701775
+Content advertisement at time: 255.000703429
+Content advertisement at time: 260.000703429
+Content advertisement at time: 265.000703429
+Content advertisement at time: 270.000703429
+Content advertisement at time: 275.000703429
+Content advertisement at time: 280.000703429
+Content advertisement at time: 285.000703429
+Content advertisement at time: 290.000703429
+Content advertisement at time: 295.000703429
+Content advertisement at time: 300.000703429
+Content advertisement at time: 305.000703429
+Content advertisement at time: 310.000703429
+Content advertisement at time: 315.000703429
+Content advertisement at time: 320.000703429
+Content advertisement at time: 325.000703429
+Content advertisement at time: 330.000703429
+Content advertisement at time: 335.000756834
+Content advertisement at time: 340.000761771
+Content advertisement at time: 345.000812119
+Content advertisement at time: 350.00081417
+Content advertisement at time: 355.00081417
+Content advertisement at time: 360.000831783
+Content advertisement at time: 365.00084232
+Content advertisement at time: 370.00084232
+Content advertisement at time: 375.00084232
+Content advertisement at time: 380.00084232
+Content advertisement at time: 385.000937291
+Content advertisement at time: 390.000961426
+Content advertisement at time: 395.001012203
+Content advertisement at time: 400.001012203
+Content advertisement at time: 405.001012203
+Content advertisement at time: 410.001012203
+Content advertisement at time: 415.001012203
+Content advertisement at time: 420.001012203
+Content advertisement at time: 425.001012203
+Content advertisement at time: 430.001012203
+Content advertisement at time: 435.001012203
+Content advertisement at time: 440.001012203
+Content advertisement at time: 445.001012203
+Content advertisement at time: 450.001012203
+Content advertisement at time: 455.001012203
+Content advertContent advertisement at time: 5.00002494233
+Content advertisement at time: 10.0000781671
+Content advertisement at time: 15.0001245614
+Content advertisement at time: 20.0001245614
+Content advertisement at time: 25.0001245614
+Content advertisement at time: 30.0001245614
+Content advertisement at time: 35.0001245614
+Content advertisement at time: 40.0001245614
+Content advertisement at time: 45.0001245614
+Content advertisement at time: 50.0001245614
+Content advertisement at time: 55.0001245614
+Content advertisement at time: 60.0001245614
+Content advertisement at time: 65.0001245614
+Content advertisement at time: 70.0001299621
+Content advertisement at time: 75.0001326036
+Content advertisement at time: 80.0001388256
+Content advertisement at time: 85.0001390716
+Content advertisement at time: 90.0001410685
+Content advertisement at time: 95.0001410685
+Content advertisement at time: 100.000141069
+Content advertisement at time: 105.000143978
+Content advertisement at time: 110.000149994
+Content advertisement at time: 115.00015323
+Content advertisement at time: 120.000153339
+Content advertisement at time: 125.000172881
+Content advertisement at time: 130.000175514
+Content advertisement at time: 135.000188764
+Content advertisement at time: 140.000188764
+Content advertisement at time: 145.000197663
+Content advertisement at time: 150.000231088
+Content advertisement at time: 155.000242589
+Content advertisement at time: 160.000255634
+Content advertisement at time: 165.00026016
+Content advertisement at time: 170.000272332
+Content advertisement at time: 175.000296741
+Content advertisement at time: 180.000327829
+Content advertisement at time: 185.00033173
+Content advertisement at time: 190.000342692
+Content advertisement at time: 195.000342692
+Content advertisement at time: 200.000386602
+Content advertisement at time: 205.000386602
+Content advertisement at time: 210.000411007
+Content advertisement at time: 215.000418791
+Content advertisement at time: 220.000421678
+Content advertisement at time: 225.000428309
+Content advertisement at time: 230.000428843
+Content advertisement at time: 235.000430764
+Content advertisement at time: 240.00043541
+Content advertisement at time: 245.000447648
+Content advertisement at time: 250.000447648
+Content advertisement at time: 255.000456685
+Content advertisement at time: 260.000456685
+Content advertisement at time: 265.000462587
+Content advertisement at time: 270.000462587
+Content advertisement at time: 275.000462587
+Content advertisement at time: 280.000462587
+Content advertisement at time: 285.000462587
+Content advertisement at time: 290.000476824
+Content advertisement at time: 295.000476824
+Content advertisement at time: 300.000476824
+Content advertisement at time: 305.000476824
+Content advertisement at time: 310.000476824
+Content advertisement at time: 315.000476824
+Content advertisement at time: 320.000476824
+Content advertisement at time: 325.000494757
+Content advertisement at time: 330.000494757
+Content advertisement at time: 335.000520649
+Content advertisement at time: 340.000529375
+Content advertisement at time: 345.000531394
+Content advertisement at time: 350.000531394
+Content advertisement at time: 355.000531394
+Content advertisement at time: 360.000531394
+Content advertisement at time: 365.000531394
+Content advertisement at time: 370.000531394
+Content advertisement at time: 375.000531394
+Content advertisement at time: 380.000531394
+Content advertisement at time: 385.000531394
+Content advertisement at time: 390.000531394
+Content advertisement at time: 395.000531394
+Content advertisement at time: 400.000531394
+Content advertisement at time: 405.000531394
+Content advertisement at time: 410.000531394
+Content advertisement at time: 415.000531394
+Content advertisement at time: 420.000531394
+Content advertisement at time: 425.000531394
+Content advertisement at time: 430.000531394
+Content advertisement at time: 435.000531394
+Content advertisement at time: 440.000531394
+Content advertisement at time: 445.000531394
+Content advertisement at time: 450.000531394
+Content advertisement at time: 455.000531394
+Conte[04:08:49 2019-05-14|INFO|runner-PoolWorker-12] Experiment 12/20 | End simulation | Duration 3h 42m 30s.
+[04:08:49 2019-05-14|INFO|runner-PoolWorker-12] Experiment 18/20 | Preparing scenario: strategy: IPFS alpha 0.5
+[04:08:49 2019-05-14|INFO|runner-PoolWorker-12] Experiment 18/20 | Start simulation
+nt advertisement at time: 460.000537444
+Content advertisement at time: 465.000625096
+Content advertisement at time: 470.000625096
+End of iteration: len(eventObj): 0
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+Content advertisement at time: 5.00002494233
+Content advertisement at time: 10.0001244628
+Content advertisement at time: 15.0001488172
+Content advertisement at time: 20.0001488172
+Content advertisement at time: 25.0001488172
+Content advertisement at time: 30.0001488172
+Content advertisement at time: 35.0001488172
+Content advertisement at time: 40.0001488172
+Content advertisement at time: 45.0001488172
+Content advertisement at time: 50.0001488172
+Content advertisement at time: 55.0001488172
+Content advertisement at time: 60.0001488172
+Content advertisement at time: 65.0001488172
+Content advertisement at time: 70.000160754
+Content advertisement at time: 75.0001761786
+Content advertisement at time: 80.0002040978
+Content advertisement at time: 85.000204605
+Content advertisement at time: 90.0002062385
+Content advertisement at time: 95.0002088955
+Content advertisement at time: 100.000209873
+Content advertisement at time: 105.000233777
+Content advertisement at time: 110.00024329
+Content advertisement at time: 115.000256621
+Content advertisement at time: 120.000267453
+Content advertisement at time: 125.000275132
+Content advertisement at time: 130.000275553
+Content advertisement at time: 135.000288311
+Content advertisement at time: 140.000293978
+Content advertisement at time: 145.00029923
+Content advertisement at time: 150.000302341
+Content advertisement at time: 155.000323174
+Content advertisement at time: 160.000351748
+Content advertisement at time: 165.000361709
+Content advertisement at time: 170.000377271
+Content advertisement at time: 175.000389042
+Content advertisement at time: 180.000408957
+Content advertisement at time: 185.000425388
+Content advertisement at time: 190.000428853
+Content advertisement at time: 195.000453139
+Content advertisement at time: 200.000500046
+Content advertisement at time: 205.000509033
+Content advertisement at time: 210.000510972
+Content advertisement at time: 215.000516908
+Content advertisement at time: 220.000518138
+Content advertisement at time: 225.000530052
+Content advertisement at time: 230.000551724
+Content advertisement at time: 235.000561317
+Content advertisement at time: 240.000576461
+Content advertisement at time: 245.000578214
+Content advertisement at time: 250.000596846
+Content advertisement at time: 255.000599302
+Content advertisement at time: 260.000599302
+Content advertisement at time: 265.000605294
+Content advertisement at time: 270.000605294
+Content advertisement at time: 275.000605294
+Content advertisement at time: 280.000605294
+Content advertisement at time: 285.000632184
+Content advertisement at time: 290.000640207
+Content advertisement at time: 295.000640207
+Content advertisement at time: 300.000668351
+Content advertisement at time: 305.00067958
+Content advertisement at time: 310.000714817
+Content advertisement at time: 315.000714817
+Content advertisement at time: 320.000714817
+Content advertisement at time: 325.000714817
+Content advertisement at time: 330.000714817
+Content advertisement at time: 335.000714817
+Content advertisement at time: 340.000714817
+Content advertisement at time: 345.000714817
+Content advertisement at time: 350.000714817
+Content advertisement at time: 355.000714817
+Content advertisement at time: 360.000714817
+Content advertisement at time: 365.000714817
+Content advertisement at time: 370.000714817
+Content advertisement at time: 375.000717187
+Content advertisement at time: 380.000742039
+Content advertisement at time: 385.000743429
+Content advertisement at time: 390.000743429
+Content advertisement at time: 395.000743429
+Content advertisement at time: 400.000743429
+Content advertisement at time: 405.000744148
+Content advertisement at time: 410.000781938
+Content advertisement at time: 415.000781938
+Content advertisement at time: 420.000817644
+Content advertisement at time: 425.000817644
+Content advertisement at time: 430.000819525
+Content advertisement at time: 435.000819525
+Content advertisement at time: 440.000845958
+Content advertisement at time: 445.000845958
+Content advertisement at time: 450.000847919
+Content advertisement at time: 455.000847919
+Conten[04:15:42 2019-05-14|INFO|runner-PoolWorker-11] Experiment 11/20 | End simulation | Duration 3h 49m 23s.
+[04:15:42 2019-05-14|INFO|runner-PoolWorker-11] Experiment 19/20 | Preparing scenario: strategy: IPFS alpha 0.75
+[04:15:42 2019-05-14|INFO|runner-PoolWorker-11] Experiment 19/20 | Start simulation
+t advertisement at time: 460.000847919
+Content advertisement at time: 465.000847919
+Content advertisement at time: 470.000847919
+End of iteration: len(eventObj): 0
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+ent advertisement at time: 460.00144354
+Content advertisement at time: 465.00144354
+Content advertisement at time: 470.00144354
+Content advertisement at time: 475.00144354
+Content advertisement at time: 480.00144354
+Content advertisement at time: 485.00144354
+Content advertisement at time: 490.00144354
+Content advertisement at time: 495.00144354
+Content advertisement at time: 500.00144354
+Content advertisement at time: 505.00144354
+Content advertisement at time: 510.00144354
+Content advertisement at time: 515.00144354
+Content advertisement at time: 520.00146734
+Content advertisement at time: 525.00146734
+Content advertisement at time: 530.00146734
+Content advertisement at time: 535.001529616
+Content advertisement at time: 540.001541178
+Content advertisement at time: 545.001541178
+Content advertisement at time: 550.001541178
+Content advertisement at time: 555.001553178
+Content advertisement at time: 560.00161193
+Content advertisement at time: 565.00161193
+Content advertisement at time: 570.00161193
+Content advertisement at time: 575.00161193
+Content advertisement at time: 580.00161193
+Content advertisement at time: 585.001615225
+Content advertisement at time: 590.001670968
+Content advertisement at time: 595.001670968
+Content advertisement at time: 600.001705497
+Content advertisement at time: 605.001705497
+Content advertisement at time: 610.001705497
+Content advertisement at time: 615.001705497
+Error in NDN: Flow: 144 has not completed. Terminating flow...
+Content advertisement at time: 620.001705497
+Error in NDN: Flow: 193 has not completed. Terminating flow...
+Error in NDN: Flow: 201 has not completed. Terminating flow...
+Content advertisement at time: 625.001714087
+Error in NDN: Flow: 212 has not completed. Terminating flow...
+Content advertisement at time: 630.001876095
+Error in NDN: Flow: 304 has not completed. Terminating flow...
+Error in NDN: Flow: 311 has not completed. Terminating flow...
+Content advertisement at time: 635.001876095
+Content advertisement at time: 640.001876095
+Error in NDN: Flow: 400 has not completed. Terminating flow...
+Content advertisement at time: 645.001876095
+Error in NDN: Flow: 454 has not completed. Terminating flow...
+Content advertisement at time: 650.001876095
+Content advertisement at time: 655.001876095
+Content advertisement at time: 660.001876095
+Error in NDN: Flow: 573 has not completed. Terminating flow...
+Error in NDN: Flow: 582 has not completed. Terminating flow...
+Content advertisement at time: 665.001876095
+Error in NDN: Flow: 616 has not completed. Terminating flow...
+Error in NDN: Flow: 617 has not completed. Terminating flow...
+Error in NDN: Flow: 631 has not completed. Terminating flow...
+Error in NDN: Flow: 637 has not completed. Terminating flow...
+Error in NDN: Flow: 643 has not completed. Terminating flow...
+Content advertisement at time: 670.001876095
+Error in NDN: Flow: 657 has not completed. Terminating flow...
+Error in NDN: Flow: 658 has not completed. Terminating flow...
+Error in NDN: Flow: 668 has not completed. Terminating flow...
+Content advertisement at time: 675.001876095
+Error in NDN: Flow: 706 has not completed. Terminating flow...
+Error in NDN: Flow: 710 has not completed. Terminating flow...
+Error in NDN: Flow: 712 has not completed. Terminating flow...
+Error in NDN: Flow: 722 has not completed. Terminating flow...
+Content advertisement at time: 680.001876095
+Error in NDN: Flow: 775 has not completed. Terminating flow...
+Error in NDN: Flow: 779 has not completed. Terminating flow...
+Error in NDN: Flow: 787 has not completed. Terminating flow...
+Content advertisement at time: 685.001876095
+Content advertisement at time: 690.001876095
+Content advertisement at time: 695.001876095
+Content advertisement at time: 700.001876095
+Content advertisement at time: 705.001876095
+Error in NDN: Flow: 809 has not completed. Terminating flow...
+Error in NDN: Flow: 817 has not completed. Terminating flow...
+Content advertisement at time: 710.001879677
+Error in NDN: Flow: 828 has not completed. Terminating flow...
+Error in NDN: Flow: 831 has not completed. Terminating flow..dvertisement at time: 460.00104161
+Content advertisement at time: 465.00104161
+Content advertisement at time: 470.00104161
+Content advertisement at time: 475.00104161
+Content advertisement at time: 480.00104161
+Content advertisement at time: 485.00104161
+Content advertisement at time: 490.00104161
+Content advertisement at time: 495.00104161
+Content advertisement at time: 500.00104804
+Content advertisement at time: 505.001057035
+Content advertisement at time: 510.001057035
+Content advertisement at time: 515.001097852
+Content advertisement at time: 520.001097852
+Content advertisement at time: 525.001097852
+Content advertisement at time: 530.001097852
+Content advertisement at time: 535.001097852
+Content advertisement at time: 540.001097852
+Content advertisement at time: 545.001179925
+Content advertisement at time: 550.001253466
+Content advertisement at time: 555.00126823
+Content advertisement at time: 560.001326026
+Content advertisement at time: 565.001326026
+Content advertisement at time: 570.001326026
+Content advertisement at time: 575.001326026
+Content advertisement at time: 580.001326026
+Content advertisement at time: 585.001326026
+Content advertisement at time: 590.001326026
+Content advertisement at time: 595.001326026
+Content advertisement at time: 600.001326026
+Content advertisement at time: 605.001326026
+Content advertisement at time: 610.001326026
+Content advertisement at time: 615.001326026
+Content advertisement at time: 620.001326026
+Error in NDN: Flow: 173 has not completed. Terminating flow...
+Error in NDN: Flow: 174 has not completed. Terminating flow...
+Content advertisement at time: 625.001326026
+Error in NDN: Flow: 228 has not completed. Terminating flow...
+Content advertisement at time: 630.001326026
+Error in NDN: Flow: 275 has not completed. Terminating flow...
+Content advertisement at time: 635.001326026
+Error in NDN: Flow: 362 has not completed. Terminating flow...
+Content advertisement at time: 640.001326026
+Error in NDN: Flow: 379 has not completed. Terminating flow...
+Error in NDN: Flow: 414 has not completed. Terminating flow...
+Content advertisement at time: 645.001326026
+Content advertisement at time: 650.001326026
+Content advertisement at time: 655.001333901
+Error in NDN: Flow: 540 has not completed. Terminating flow...
+Content advertisement at time: 660.001333901
+Content advertisement at time: 665.001333901
+Error in NDN: Flow: 617 has not completed. Terminating flow...
+Error in NDN: Flow: 629 has not completed. Terminating flow...
+Content advertisement at time: 670.001333901
+Error in NDN: Flow: 671 has not completed. Terminating flow...
+Error in NDN: Flow: 679 has not completed. Terminating flow...
+Error in NDN: Flow: 692 has not completed. Terminating flow...
+Content advertisement at time: 675.001352607
+Error in NDN: Flow: 704 has not completed. Terminating flow...
+Error in NDN: Flow: 712 has not completed. Terminating flow...
+Content advertisement at time: 680.001352607
+Content advertisement at time: 685.001352607
+Content advertisement at time: 690.001460586
+Content advertisement at time: 695.001682609
+Content advertisement at time: 700.002336865
+Content advertisement at time: 705.002336865
+Error in NDN: Flow: 817 has not completed. Terminating flow...
+Content advertisement at time: 710.002682609
+Error in NDN: Flow: 857 has not completed. Terminating flow...
+Content advertisement at time: 715.002779489
+Content advertisement at time: 720.002964736
+Error in NDN: Flow: 909 has not completed. Terminating flow...
+Content advertisement at time: 725.003006327
+Content advertisement at time: 730.003200264
+Content advertisement at time: 735.003200264
+Content advertisement at time: 740.003200264
+Content advertisement at time: 745.003200264
+Content advertisement at time: 750.003378718
+Content advertisement at time: 755.003976534
+Content advertisement at time: 760.004378718
+Content advertisement at time: 765.004682609
+Error in NDN: Flow: 1097 has not completed. Terminating flow...
+Content advertisement at time: 770.006200264
+Content advertisement at time: 775.006378718
+Error in NDN: Flow: 1154 has not compContent advertisement at time: 5.00013320343
+Content advertisement at time: 10.000134631
+Content advertisement at time: 15.000173759
+Content advertisement at time: 20.0001844863
+Content advertisement at time: 25.000187339
+Content advertisement at time: 30.000187339
+Content advertisement at time: 35.000187339
+Content advertisement at time: 40.000187339
+Content advertisement at time: 45.000187339
+Content advertisement at time: 50.000187339
+Content advertisement at time: 55.000187339
+Content advertisement at time: 60.000187339
+Content advertisement at time: 65.00019341
+Content advertisement at time: 70.0001956315
+Content advertisement at time: 75.0001956315
+Content advertisement at time: 80.0001985172
+Content advertisement at time: 85.000236187
+Content advertisement at time: 90.0002422285
+Content advertisement at time: 95.0002581485
+Content advertisement at time: 100.000262891
+Content advertisement at time: 105.000273442
+Content advertisement at time: 110.000290352
+Content advertisement at time: 115.000309548
+Content advertisement at time: 120.000309741
+Content advertisement at time: 125.000320156
+Content advertisement at time: 130.000347562
+Content advertisement at time: 135.000355278
+Content advertisement at time: 140.000360922
+Content advertisement at time: 145.000360922
+Content advertisement at time: 150.000393963
+Content advertisement at time: 155.000424166
+Content advertisement at time: 160.000424166
+Content advertisement at time: 165.000427031
+Content advertisement at time: 170.000439276
+Content advertisement at time: 175.000439607
+Content advertisement at time: 180.000441902
+Content advertisement at time: 185.000453537
+Content advertisement at time: 190.000456215
+Content advertisement at time: 195.000459565
+Content advertisement at time: 200.000462704
+Content advertisement at time: 205.000475804
+Content advertisement at time: 210.000475804
+Content advertisement at time: 215.000475804
+Content advertisement at time: 220.000475804
+Content advertisement at time: 225.000481525
+Content advertisement at time: 230.000492298
+Content advertisement at time: 235.000492298
+Content advertisement at time: 240.000492298
+Content advertisement at time: 245.000503822
+Content advertisement at time: 250.000531817
+Content advertisement at time: 255.000555265
+Content advertisement at time: 260.000578446
+Content advertisement at time: 265.000589921
+Content advertisement at time: 270.000589921
+Content advertisement at time: 275.000589921
+Content advertisement at time: 280.000592883
+Content advertisement at time: 285.000596948
+Content advertisement at time: 290.000597283
+Content advertisement at time: 295.000597283
+Content advertisement at time: 300.000601943
+Content advertisement at time: 305.000607087
+Content advertisement at time: 310.000612445
+Content advertisement at time: 315.000612445
+Content advertisement at time: 320.00061658
+Content advertisement at time: 325.00061658
+Content advertisement at time: 330.00061658
+Content advertisement at time: 335.00061658
+Content advertisement at time: 340.00061658
+Content advertisement at time: 345.00061658
+Content advertisement at time: 350.00061658
+Content advertisement at time: 355.00061658
+Content advertisement at time: 360.00061658
+Content advertisement at time: 365.00061658
+Content advertisement at time: 370.000620788
+Content advertisement at time: 375.000620788
+Content advertisement at time: 380.000620788
+Content advertisement at time: 385.000620788
+Content advertisement at time: 390.000620788
+Content advertisement at time: 395.000620788
+Content advertisement at time: 400.000620788
+Content advertisement at time: 405.000620788
+Content advertisement at time: 410.000620788
+Content advertisement at time: 415.000620788
+Content advertisement at time: 420.000620788
+Content advertisement at time: 425.000620788
+Content advertisement at time: 430.000624158
+Content advertisement at time: 435.000635099
+Content advertisement at time: 440.0006351
+Content advertisement at time: 445.0006351
+Content advertisement at time: 450.0006351
+Content advertisement at time: 455.0006351
+Content advertisement at time: 4[05:14:35 2019-05-14|INFO|runner-PoolWorker-8] Experiment 8/20 | End simulation | Duration 4h 48m 17s.
+[05:14:35 2019-05-14|INFO|orchestration] SUMMARY | Completed: 8, Failed: 0, Scheduled: 12, ETA: 2h 22m
+[05:14:35 2019-05-14|INFO|runner-PoolWorker-8] Experiment 20/20 | Preparing scenario: strategy: IPFS alpha 1.0
+[05:14:35 2019-05-14|INFO|runner-PoolWorker-8] Experiment 20/20 | Start simulation
+ advertisement at time: 460.000912893
+Content advertisement at time: 465.000912893
+Content advertisement at time: 470.000912893
+Content advertisement at time: 475.000912893
+Content advertisement at time: 480.00095874
+Content advertisement at time: 485.00095874
+Content advertisement at time: 490.00095874
+Content advertisement at time: 495.00095874
+Content advertisement at time: 500.00095874
+Content advertisement at time: 505.00095874
+Content advertisement at time: 510.00095874
+Content advertisement at time: 515.001018307
+Content advertisement at time: 520.001042607
+Content advertisement at time: 525.001042607
+Content advertisement at time: 530.001042607
+Content advertisement at time: 535.001042607
+Content advertisement at time: 540.001042607
+Content advertisement at time: 545.001042607
+Content advertisement at time: 550.001042607
+Content advertisement at time: 555.001042607
+Content advertisement at time: 560.001042607
+Content advertisement at time: 565.001042607
+Content advertisement at time: 570.001121882
+Content advertisement at time: 575.001121882
+Content advertisement at time: 580.001129682
+Content advertisement at time: 585.001135641
+Content advertisement at time: 590.001135641
+Content advertisement at time: 595.001141299
+Content advertisement at time: 600.001141299
+Content advertisement at time: 605.001141299
+Content advertisement at time: 610.001141299
+Content advertisement at time: 615.001141299
+Content advertisement at time: 620.001141299
+Content advertisement at time: 625.001141299
+Content advertisement at time: 630.001141299
+Content advertisement at time: 635.001141299
+Content advertisement at time: 640.001189251
+Content advertisement at time: 645.001234634
+Content advertisement at time: 650.001349181
+Content advertisement at time: 655.001349181
+Content advertisement at time: 660.001452959
+Content advertisement at time: 665.00216721
+Content advertisement at time: 670.002329906
+Error in NDN: Flow: 677 has not completed. Terminating flow...
+Error in NDN: Flow: 680 has not completed. Terminating flow...
+Content advertisement at time: 675.003647549
+Error in NDN: Flow: 743 has not completed. Terminating flow...
+Error in NDN: Flow: 747 has not completed. Terminating flow...
+Content advertisement at time: 680.00371834
+Content advertisement at time: 685.004349181
+Content advertisement at time: 690.004647549
+Content advertisement at time: 695.00471834
+Content advertisement at time: 700.005234634
+Content advertisement at time: 705.005236111
+Content advertisement at time: 710.005236111
+Error in NDN: Flow: 850 has not completed. Terminating flow...
+Content advertisement at time: 715.005236111
+Content advertisement at time: 720.005349181
+Content advertisement at time: 725.006349181
+Content advertisement at time: 730.006349181
+Content advertisement at time: 735.007329906
+Content advertisement at time: 740.010765164
+Content advertisement at time: 745.014329906
+Content advertisement at time: 750.014329906
+Content advertisement at time: 755.014329906
+Content advertisement at time: 760.015190631
+Content advertisement at time: 765.019190631
+Error in NDN: Flow: 1110 has not completed. Terminating flow...
+Content advertisement at time: 770.023765164
+Content advertisement at time: 775.024349181
+Content advertisement at time: 780.034190631
+Error in NDN: Flow: 1157 has not completed. Terminating flow...
+Content advertisement at time: 785.039190631
+Error in NDN: Flow: 1189 has not completed. Terminating flow...
+Content advertisement at time: 790.044190631
+Content advertisement at time: 795.049190631
+Error in NDN: Flow: 1244 has not completed. Terminating flow...
+Content advertisement at time: 800.054190631
+Content advertisement at time: 805.059190631
+Content advertisement at time: 810.064190631
+Content advertisement at time: 815.069190631
+Content advertisement at time: 820.072349181
+Content advertisement at time: 825.110349181
+Content advertisement at time: 830.115349181
+End of iteration: len(eventObj): 0
+There are 790 receivers in the topology
+Computation budget: 1
+Service budget: 1
+HERE1
+HERE
+Network Model initialisation complete...
+460.001282934
+Content advertisement at time: 465.001282934
+Content advertisement at time: 470.001282934
+Content advertisement at time: 475.001282934
+Content advertisement at time: 480.001282934
+Content advertisement at time: 485.001282934
+Content advertisement at time: 490.001282934
+Content advertisement at time: 495.001282934
+Content advertisement at time: 500.001294965
+Content advertisement at time: 505.001324434
+Content advertisement at time: 510.001324434
+Content advertisement at time: 515.001413967
+Content advertisement at time: 520.001436212
+Content advertisement at time: 525.001440794
+Content advertisement at time: 530.001448223
+Content advertisement at time: 535.001479375
+Content advertisement at time: 540.001480497
+Content advertisement at time: 545.001480497
+Content advertisement at time: 550.001480497
+Content advertisement at time: 555.001480497
+Content advertisement at time: 560.001480497
+Content advertisement at time: 565.001480497
+Content advertisement at time: 570.001480497
+Content advertisement at time: 575.001480497
+Content advertisement at time: 580.001480497
+Content advertisement at time: 585.001480497
+Content advertisement at time: 590.001480497
+Content advertisement at time: 595.001639351
+Content advertisement at time: 600.002001634
+Content advertisement at time: 605.00207291
+Content advertisement at time: 610.00208234
+Content advertisement at time: 615.002092063
+Content advertisement at time: 620.00224473
+Error in NDN: Flow: 201 has not completed. Terminating flow...
+Content advertisement at time: 625.002278981
+Content advertisement at time: 630.002516054
+Content advertisement at time: 635.002648988
+Content advertisement at time: 640.002648988
+Content advertisement at time: 645.003037313
+Content advertisement at time: 650.004037313
+Content advertisement at time: 655.004393332
+Error in NDN: Flow: 511 has not completed. Terminating flow...
+Content advertisement at time: 660.009848203
+Content advertisement at time: 665.010092063
+Content advertisement at time: 670.010393332
+Content advertisement at time: 675.011092063
+Error in NDN: Flow: 722 has not completed. Terminating flow...
+Error in NDN: Flow: 728 has not completed. Terminating flow...
+Content advertisement at time: 680.0134847
+Error in NDN: Flow: 768 has not completed. Terminating flow...
+Content advertisement at time: 685.0134847
+Content advertisement at time: 690.014172074
+Content advertisement at time: 695.014393332
+Content advertisement at time: 700.014393332
+Content advertisement at time: 705.015092063
+Content advertisement at time: 710.015172074
+Content advertisement at time: 715.017092063
+Content advertisement at time: 720.017172074
+Content advertisement at time: 725.017172074
+Content advertisement at time: 730.018092063
+Error in NDN: Flow: 979 has not completed. Terminating flow...
+Error in NDN: Flow: 984 has not completed. Terminating flow...
+Content advertisement at time: 735.019092063
+Error in NDN: Flow: 997 has not completed. Terminating flow...
+Content advertisement at time: 740.020172074
+Error in NDN: Flow: 1033 has not completed. Terminating flow...
+Content advertisement at time: 745.029172074
+Content advertisement at time: 750.030172074
+Content advertisement at time: 755.052092063
+Content advertisement at time: 760.053092063
+Content advertisement at time: 765.053172074
+Content advertisement at time: 770.057172074
+Content advertisement at time: 775.067172074
+Content advertisement at time: 780.068172074
+Content advertisement at time: 785.095092063
+Content advertisement at time: 790.100092063
+Content advertisement at time: 795.105092063
+Content advertisement at time: 800.105172074
+Content advertisement at time: 805.106172074
+Content advertisement at time: 810.119172074
+Content advertisement at time: 815.137172074
+Content advertisement at time: 820.142172074
+Content advertisement at time: 825.147172074
+Content advertisement at time: 830.152172074
+Content advertisement at time: 835.157172074
+Error in NDN: Flow: 1424 has not completed. Terminating flow...
+Error in NDN: Flow: 1442 has not completed. Terminating flow...
+Content advertisem[05:16:28 2019-05-14|INFO|runner-PoolWorker-4] Experiment 16/20 | End simulation | Duration 3h 29m 28s.
+Content advertisement at time: 5.00002494233
+Content advertisement at time: 10.0002627632
+Content advertisement at time: 15.0002716287
+Content advertisement at time: 20.0002716287
+Content advertisement at time: 25.0002861536
+Content advertisement at time: 30.0002861536
+Content advertisement at time: 35.0002861536
+Content advertisement at time: 40.0002861536
+Content advertisement at time: 45.0002861536
+Content advertisement at time: 50.0002861536
+Content advertisement at time: 55.0002861536
+Content advertisement at time: 60.0002861536
+Content advertisement at time: 65.0002861536
+Content advertisement at time: 70.0002863921
+Content advertisement at time: 75.0002943148
+Content advertisement at time: 80.0002943618
+Content advertisement at time: 85.0002966401
+Content advertisement at time: 90.0003026706
+Content advertisement at time: 95.0003313788
+Content advertisement at time: 100.000334178
+Content advertisement at time: 105.000346681
+Content advertisement at time: 110.000355101
+Content advertisement at time: 115.000395548
+Content advertisement at time: 120.000395548
+Content advertisement at time: 125.000399193
+Content advertisement at time: 130.00042632
+Content advertisement at time: 135.00044525
+Content advertisement at time: 140.000446246
+Content advertisement at time: 145.000446246
+Content advertisement at time: 150.000452989
+Content advertisement at time: 155.000461716
+Content advertisement at time: 160.000465195
+Content advertisement at time: 165.000474794
+Content advertisement at time: 170.000480079
+Content advertisement at time: 175.000482974
+Content advertisement at time: 180.000482974
+Content advertisement at time: 185.00048306
+Content advertisement at time: 190.000488986
+Content advertisement at time: 195.000506072
+Content advertisement at time: 200.000509439
+Content advertisement at time: 205.000512275
+Content advertisement at time: 210.000520823
+Content advertisement at time: 215.000533986
+Content advertisement at time: 220.000534647
+Content advertisement at time: 225.000536911
+Content advertisement at time: 230.000578972
+Content advertisement at time: 235.000587343
+Content advertisement at time: 240.000619782
+Content advertisement at time: 245.000619782
+Content advertisement at time: 250.000619782
+Content advertisement at time: 255.000619782
+Content advertisement at time: 260.000619782
+Content advertisement at time: 265.000619782
+Content advertisement at time: 270.000619782
+Content advertisement at time: 275.000619782
+Content advertisement at time: 280.000619782
+Content advertisement at time: 285.000619782
+Content advertisement at time: 290.000619782
+Content advertisement at time: 295.000619782
+Content advertisement at time: 300.000619782
+Content advertisement at time: 305.000619782
+Content advertisement at time: 310.000619782
+Content advertisement at time: 315.000619782
+Content advertisement at time: 320.000619782
+Content advertisement at time: 325.000619782
+Content advertisement at time: 330.000619782
+Content advertisement at time: 335.000619782
+Content advertisement at time: 340.000619782
+Content advertisement at time: 345.000639217
+Content advertisement at time: 350.000652544
+Content advertisement at time: 355.000684916
+Content advertisement at time: 360.000684916
+Content advertisement at time: 365.000684916
+Content advertisement at time: 370.000728078
+Content advertisement at time: 375.000756315
+Content advertisement at time: 380.0007724
+Content advertisement at time: 385.0007724
+Content advertisement at time: 390.0007724
+Content advertisement at time: 395.0007724
+Content advertisement at time: 400.0007724
+Content advertisement at time: 405.0007724
+Content advertisement at time: 410.0007724
+Content advertisement at time: 415.0007724
+Content advertisement at time: 420.0007724
+Content advertisement at time: 425.0007724
+Content advertisement at time: 430.0007724
+Content advertisement at time: 435.0007724
+Content advertisement at time: 440.000774451
+Content advertisement at time: 445.000774451
+Content advertisement at time: 450.000774451
+Content advertisement at time: 455.000774451
+Content advertisement at timContent advertisement at time: 5.00013320343
+Content advertisement at time: 10.0002899328
+Content advertisement at time: 15.0003222563
+Content advertisement at time: 20.0003222563
+Content advertisement at time: 25.0003222563
+Content advertisement at time: 30.0003222563
+Content advertisement at time: 35.0003284319
+Content advertisement at time: 40.0003284319
+Content advertisement at time: 45.0003284319
+Content advertisement at time: 50.0003284319
+Content advertisement at time: 55.0003284319
+Content advertisement at time: 60.0003284319
+Content advertisement at time: 65.0003284319
+Content advertisement at time: 70.0003291716
+Content advertisement at time: 75.0003385528
+Content advertisement at time: 80.00034439
+Content advertisement at time: 85.0003515358
+Content advertisement at time: 90.0003515358
+Content advertisement at time: 95.0003515358
+Content advertisement at time: 100.000372909
+Content advertisement at time: 105.000377671
+Content advertisement at time: 110.000383458
+Content advertisement at time: 115.000388885
+Content advertisement at time: 120.000388885
+Content advertisement at time: 125.000388885
+Content advertisement at time: 130.000388885
+Content advertisement at time: 135.000398372
+Content advertisement at time: 140.00039874
+Content advertisement at time: 145.000419579
+Content advertisement at time: 150.00042823
+Content advertisement at time: 155.000431307
+Content advertisement at time: 160.0004336
+Content advertisement at time: 165.0004336
+Content advertisement at time: 170.000472617
+Content advertisement at time: 175.000472617
+Content advertisement at time: 180.000472617
+Content advertisement at time: 185.000472617
+Content advertisement at time: 190.000484772
+Content advertisement at time: 195.000486194
+Content advertisement at time: 200.000494659
+Content advertisement at time: 205.000495228
+Content advertisement at time: 210.000527913
+Content advertisement at time: 215.000527913
+Content advertisement at time: 220.000543012
+Content advertisement at time: 225.000544536
+Content advertisement at time: 230.000569073
+Content advertisement at time: 235.00057875
+Content advertisement at time: 240.000587126
+Content advertisement at time: 245.000587126
+Content advertisement at time: 250.000587126
+Content advertisement at time: 255.000627176
+Content advertisement at time: 260.000630904
+Content advertisement at time: 265.000634614
+Content advertisement at time: 270.000634614
+Content advertisement at time: 275.000634614
+Content advertisement at time: 280.000634614
+Content advertisement at time: 285.000634614
+Content advertisement at time: 290.000634614
+Content advertisement at time: 295.000634614
+Content advertisement at time: 300.00064248
+Content advertisement at time: 305.00064248
+Content advertisement at time: 310.00064248
+Content advertisement at time: 315.00064248
+Content advertisement at time: 320.00064248
+Content advertisement at time: 325.00064248
+Content advertisement at time: 330.00064248
+Content advertisement at time: 335.00064248
+Content advertisement at time: 340.00064248
+Content advertisement at time: 345.00064248
+Content advertisement at time: 350.00064248
+Content advertisement at time: 355.000650164
+Content advertisement at time: 360.000650164
+Content advertisement at time: 365.000650164
+Content advertisement at time: 370.000650164
+Content advertisement at time: 375.000650164
+Content advertisement at time: 380.000650164
+Content advertisement at time: 385.000650164
+Content advertisement at time: 390.00065432
+Content advertisement at time: 395.000661981
+Content advertisement at time: 400.000673026
+Content advertisement at time: 405.000703581
+Content advertisement at time: 410.000710268
+Content advertisement at time: 415.000719246
+Content advertisement at time: 420.000719246
+Content advertisement at time: 425.000719246
+Content advertisement at time: 430.000719246
+Content advertisement at time: 435.000719246
+Content advertisement at time: 440.000719246
+Content advertisement at time: 445.000719246
+Content advertisement at time: 450.000719246
+Content advertisement at time: 455.000735527
+Content advertisement .
+Error in NDN: Flow: 838 has not completed. Terminating flow...
+Error in NDN: Flow: 846 has not completed. Terminating flow...
+Error in NDN: Flow: 848 has not completed. Terminating flow...
+Error in NDN: Flow: 855 has not completed. Terminating flow...
+Error in NDN: Flow: 860 has not completed. Terminating flow...
+Error in NDN: Flow: 864 has not completed. Terminating flow...
+Content advertisement at time: 715.001879677
+Error in NDN: Flow: 869 has not completed. Terminating flow...
+Error in NDN: Flow: 875 has not completed. Terminating flow...
+Error in NDN: Flow: 891 has not completed. Terminating flow...
+Content advertisement at time: 720.001879677
+Error in NDN: Flow: 903 has not completed. Terminating flow...
+Content advertisement at time: 725.001879677
+Error in NDN: Flow: 926 has not completed. Terminating flow...
+Error in NDN: Flow: 934 has not completed. Terminating flow...
+Content advertisement at time: 730.001879677
+Content advertisement at time: 735.001879677
+Content advertisement at time: 740.001879677
+Content advertisement at time: 745.001879677
+Content advertisement at time: 750.001879677
+Error in NDN: Flow: 1011 has not completed. Terminating flow...
+Content advertisement at time: 755.001879677
+Content advertisement at time: 760.001879677
+Error in NDN: Flow: 1038 has not completed. Terminating flow...
+Error in NDN: Flow: 1039 has not completed. Terminating flow...
+Error in NDN: Flow: 1043 has not completed. Terminating flow...
+Content advertisement at time: 765.001879677
+Content advertisement at time: 770.001996412
+Error in NDN: Flow: 1072 has not completed. Terminating flow...
+Error in NDN: Flow: 1075 has not completed. Terminating flow...
+Error in NDN: Flow: 1078 has not completed. Terminating flow...
+Error in NDN: Flow: 1081 has not completed. Terminating flow...
+Error in NDN: Flow: 1088 has not completed. Terminating flow...
+Error in NDN: Flow: 1101 has not completed. Terminating flow...
+Content advertisement at time: 775.00203848
+Error in NDN: Flow: 1120 has not completed. Terminating flow...
+Error in NDN: Flow: 1122 has not completed. Terminating flow...
+Error in NDN: Flow: 1123 has not completed. Terminating flow...
+Content advertisement at time: 780.002042435
+Error in NDN: Flow: 1134 has not completed. Terminating flow...
+Error in NDN: Flow: 1143 has not completed. Terminating flow...
+Error in NDN: Flow: 1150 has not completed. Terminating flow...
+Content advertisement at time: 785.00225469
+Content advertisement at time: 790.00256291
+Error in NDN: Flow: 1169 has not completed. Terminating flow...
+Content advertisement at time: 795.00256291
+Content advertisement at time: 800.00256291
+Error in NDN: Flow: 1184 has not completed. Terminating flow...
+Content advertisement at time: 805.003020312
+Error in NDN: Flow: 1191 has not completed. Terminating flow...
+Error in NDN: Flow: 1195 has not completed. Terminating flow...
+Error in NDN: Flow: 1205 has not completed. Terminating flow...
+Error in NDN: Flow: 1209 has not completed. Terminating flow...
+Error in NDN: Flow: 1212 has not completed. Terminating flow...
+Content advertisement at time: 810.003454751
+Content advertisement at time: 815.00356291
+Error in NDN: Flow: 1252 has not completed. Terminating flow...
+Error in NDN: Flow: 1253 has not completed. Terminating flow...
+Error in NDN: Flow: 1256 has not completed. Terminating flow...
+Error in NDN: Flow: 1257 has not completed. Terminating flow...
+Error in NDN: Flow: 1260 has not completed. Terminating flow...
+Error in NDN: Flow: 1263 has not completed. Terminating flow...
+Error in NDN: Flow: 1265 has not completed. Terminating flow...
+Error in NDN: Flow: 1267 has not completed. Terminating flow...
+Error in NDN: Flow: 1269 has not completed. Terminating flow...
+Error in NDN: Flow: 1270 has not completed. Terminating flow...
+Error in NDN: Flow: 1274 has not completed. Terminating flow...
+Content advertisement at time: 820.003879985
+Error in NDN: Flow: 1284 has not completed. Terminating flow...
+Error in NDN: Flow: 1286 has not completed. Terminating flow...
+Content advertisement at time: 825.003879985
+Error[05:27:48 2019-05-14|INFO|runner-PoolWorker-3] Experiment 13/20 | End simulation | Duration 3h 47m 53s.
+[05:29:11 2019-05-14|INFO|runner-PoolWorker-7] Experiment 7/20 | End simulation | Duration 5h 2m 52s.
+[05:29:40 2019-05-14|INFO|runner-PoolWorker-5] Experiment 17/20 | End simulation | Duration 3h 25m 37s.
+[05:29:40 2019-05-14|INFO|orchestration] SUMMARY | Completed: 12, Failed: 0, Scheduled: 8, ETA: 1h 56m
+[05:30:57 2019-05-14|INFO|runner-PoolWorker-6] Experiment 6/20 | End simulation | Duration 5h 4m 38s.
+[05:39:32 2019-05-14|INFO|runner-PoolWorker-9] Experiment 9/20 | End simulation | Duration 5h 13m 13s.
+Content advertisement at time: 5.00002494233
+Content advertisement at time: 10.0001003488
+Content advertisement at time: 15.0001549391
+Content advertisement at time: 20.0001549391
+Content advertisement at time: 25.0001549391
+Content advertisement at time: 30.0001549391
+Content advertisement at time: 35.0001549391
+Content advertisement at time: 40.0001549391
+Content advertisement at time: 45.0001549391
+Content advertisement at time: 50.0001549391
+Content advertisement at time: 55.0001549391
+Content advertisement at time: 60.0001549391
+Content advertisement at time: 65.0001549391
+Content advertisement at time: 70.0001671291
+Content advertisement at time: 75.0001775303
+Content advertisement at time: 80.0001845712
+Content advertisement at time: 85.0002132808
+Content advertisement at time: 90.0002229778
+Content advertisement at time: 95.0002312066
+Content advertisement at time: 100.000231603
+Content advertisement at time: 105.000243661
+Content advertisement at time: 110.000244495
+Content advertisement at time: 115.000253695
+Content advertisement at time: 120.000261257
+Content advertisement at time: 125.000268385
+Content advertisement at time: 130.000268385
+Content advertisement at time: 135.000269817
+Content advertisement at time: 140.000272265
+Content advertisement at time: 145.000277202
+Content advertisement at time: 150.000277393
+Content advertisement at time: 155.000277393
+Content advertisement at time: 160.000300683
+Content advertisement at time: 165.000313897
+Content advertisement at time: 170.000315133
+Content advertisement at time: 175.000316796
+Content advertisement at time: 180.000316796
+Content advertisement at time: 185.000316796
+Content advertisement at time: 190.000322336
+Content advertisement at time: 195.000341463
+Content advertisement at time: 200.000341463
+Content advertisement at time: 205.000341914
+Content advertisement at time: 210.000398651
+Content advertisement at time: 215.000441154
+Content advertisement at time: 220.000461629
+Content advertisement at time: 225.000462728
+Content advertisement at time: 230.000470493
+Content advertisement at time: 235.000470594
+Content advertisement at time: 240.000473932
+Content advertisement at time: 245.000473932
+Content advertisement at time: 250.000484146
+Content advertisement at time: 255.000511994
+Content advertisement at time: 260.000511994
+Content advertisement at time: 265.000511994
+Content advertisement at time: 270.000511994
+Content advertisement at time: 275.000511994
+Content advertisement at time: 280.000511994
+Content advertisement at time: 285.000511994
+Content advertisement at time: 290.000511994
+Content advertisement at time: 295.000511994
+Content advertisement at time: 300.000511994
+Content advertisement at time: 305.000511994
+Content advertisement at time: 310.000511994
+Content advertisement at time: 315.000511994
+Content advertisement at time: 320.000511994
+Content advertisement at time: 325.000511994
+Content advertisement at time: 330.000511994
+Content advertisement at time: 335.000511994
+Content advertisement at time: 340.000511994
+Content advertisement at time: 345.000511994
+Content advertisement at time: 350.000511994
+Content advertisement at time: 355.000511994
+Content advertisement at time: 360.000511994
+Content advertisement at time: 365.000516407
+Content advertisement at time: 370.000516481
+Content advertisement at time: 375.000516481
+Content advertisement at time: 380.000516481
+Content advertisement at time: 385.000516481
+Content advertisement at time: 390.000516481
+Content advertisement at time: 395.000516481
+Content advertisement at time: 400.000516481
+Content advertisement at time: 405.000516481
+Content advertisement at time: 410.000516481
+Content advertisement at time: 415.000516481
+Content advertisement at time: 420.000516481
+Content advertisement at time: 425.000516481
+Content advertisement at time: 430.000516481
+Content advertisement at time: 435.000516481
+Content advertisement at time: 440.000516481
+Content advertisement at time: 445.000516481
+Content advertisement at time: 450.000516481
+Content advertisement at time: 455.000516481
+C[05:53:32 2019-05-14|INFO|runner-PoolWorker-2] Experiment 14/20 | End simulation | Duration 4h 11m 32s.
+ in NDN: Flow: 1302 has not completed. Terminating flow...
+Content advertisement at time: 830.003879985
+Error in NDN: Flow: 1327 has not completed. Terminating flow...
+Content advertisement at time: 835.003879985
+Error in NDN: Flow: 1333 has not completed. Terminating flow...
+Error in NDN: Flow: 1336 has not completed. Terminating flow...
+Error in NDN: Flow: 1341 has not completed. Terminating flow...
+Content advertisement at time: 840.003879985
+Content advertisement at time: 845.003879985
+Error in NDN: Flow: 1388 has not completed. Terminating flow...
+Error in NDN: Flow: 1390 has not completed. Terminating flow...
+Error in NDN: Flow: 1394 has not completed. Terminating flow...
+Content advertisement at time: 850.003879985
+Error in NDN: Flow: 1403 has not completed. Terminating flow...
+Error in NDN: Flow: 1407 has not completed. Terminating flow...
+Error in NDN: Flow: 1412 has not completed. Terminating flow...
+Error in NDN: Flow: 1436 has not completed. Terminating flow...
+Content advertisement at time: 855.003879985
+Error in NDN: Flow: 1452 has not completed. Terminating flow...
+Error in NDN: Flow: 1453 has not completed. Terminating flow...
+Content advertisement at time: 860.003879985
+Content advertisement at time: 865.003894527
+Error in NDN: Flow: 1489 has not completed. Terminating flow...
+Error in NDN: Flow: 1495 has not completed. Terminating flow...
+Content advertisement at time: 870.004529616
+Error in NDN: Flow: 1526 has not completed. Terminating flow...
+Error in NDN: Flow: 1529 has not completed. Terminating flow...
+Content advertisement at time: 875.004529616
+Error in NDN: Flow: 1546 has not completed. Terminating flow...
+Error in NDN: Flow: 1549 has not completed. Terminating flow...
+Content advertisement at time: 880.005359797
+Error in NDN: Flow: 1553 has not completed. Terminating flow...
+Error in NDN: Flow: 1566 has not completed. Terminating flow...
+Error in NDN: Flow: 1571 has not completed. Terminating flow...
+Error in NDN: Flow: 1573 has not completed. Terminating flow...
+Error in NDN: Flow: 1574 has not completed. Terminating flow...
+Error in NDN: Flow: 1580 has not completed. Terminating flow...
+Content advertisement at time: 885.00778527
+Error in NDN: Flow: 1588 has not completed. Terminating flow...
+Error in NDN: Flow: 1595 has not completed. Terminating flow...
+Error in NDN: Flow: 1600 has not completed. Terminating flow...
+Content advertisement at time: 890.00803848
+Error in NDN: Flow: 1609 has not completed. Terminating flow...
+Error in NDN: Flow: 1610 has not completed. Terminating flow...
+Content advertisement at time: 895.009020312
+Content advertisement at time: 900.00903848
+Error in NDN: Flow: 1645 has not completed. Terminating flow...
+Error in NDN: Flow: 1647 has not completed. Terminating flow...
+Error in NDN: Flow: 1662 has not completed. Terminating flow...
+Content advertisement at time: 905.00978527
+Error in NDN: Flow: 1678 has not completed. Terminating flow...
+Error in NDN: Flow: 1681 has not completed. Terminating flow...
+Content advertisement at time: 910.009990456
+Content advertisement at time: 915.013020312
+Error in NDN: Flow: 1720 has not completed. Terminating flow...
+Content advertisement at time: 920.01545475
+Error in NDN: Flow: 1726 has not completed. Terminating flow...
+Content advertisement at time: 925.01545475
+Error in NDN: Flow: 1737 has not completed. Terminating flow...
+Content advertisement at time: 930.01556291
+Content advertisement at time: 935.03278527
+Error in NDN: Flow: 1791 has not completed. Terminating flow...
+Error in NDN: Flow: 1806 has not completed. Terminating flow...
+Error in NDN: Flow: 1808 has not completed. Terminating flow...
+Content advertisement at time: 940.049020312
+Content advertisement at time: 945.04903848
+Error in NDN: Flow: 1850 has not completed. Terminating flow...
+Error in NDN: Flow: 1857 has not completed. Terminating flow...
+Content advertisement at time: 950.05003848
+Error in NDN: Flow: 1868 has not completed. Terminating flow...
+Error in NDN: Flow: 1875 has not completed. Terminating flow...
+Content advertisement at time: 955.0509904Content advertisement at time: 5.00002494233
+Content advertisement at time: 10.0001959676
+Content advertisement at time: 15.0002368652
+Content advertisement at time: 20.0002368652
+Content advertisement at time: 25.0002368652
+Content advertisement at time: 30.0002368652
+Content advertisement at time: 35.0002368652
+Content advertisement at time: 40.0002368652
+Content advertisement at time: 45.0002368652
+Content advertisement at time: 50.0002368652
+Content advertisement at time: 55.0002368652
+Content advertisement at time: 60.0002368652
+Content advertisement at time: 65.0002368652
+Content advertisement at time: 70.0002393052
+Content advertisement at time: 75.0002530824
+Content advertisement at time: 80.0002530824
+Content advertisement at time: 85.0002530824
+Content advertisement at time: 90.0002544202
+Content advertisement at time: 95.0002627632
+Content advertisement at time: 100.000282503
+Content advertisement at time: 105.00031572
+Content advertisement at time: 110.000317639
+Content advertisement at time: 115.000333455
+Content advertisement at time: 120.000343913
+Content advertisement at time: 125.000344687
+Content advertisement at time: 130.000351393
+Content advertisement at time: 135.00035805
+Content advertisement at time: 140.000372415
+Content advertisement at time: 145.000372415
+Content advertisement at time: 150.000372415
+Content advertisement at time: 155.000392292
+Content advertisement at time: 160.000407924
+Content advertisement at time: 165.000472276
+Content advertisement at time: 170.00047279
+Content advertisement at time: 175.000487697
+Content advertisement at time: 180.000515056
+Content advertisement at time: 185.000516634
+Content advertisement at time: 190.000530429
+Content advertisement at time: 195.000611618
+Content advertisement at time: 200.000611618
+Content advertisement at time: 205.000646607
+Content advertisement at time: 210.000684307
+Content advertisement at time: 215.000684307
+Content advertisement at time: 220.000703564
+Content advertisement at time: 225.000703564
+Content advertisement at time: 230.000706091
+Content advertisement at time: 235.000706091
+Content advertisement at time: 240.000706091
+Content advertisement at time: 245.000748907
+Content advertisement at time: 250.000758751
+Content advertisement at time: 255.000773519
+Content advertisement at time: 260.00083419
+Content advertisement at time: 265.00083419
+Content advertisement at time: 270.00083419
+Content advertisement at time: 275.00083419
+Content advertisement at time: 280.000836551
+Content advertisement at time: 285.000857297
+Content advertisement at time: 290.000864158
+Content advertisement at time: 295.000871686
+Content advertisement at time: 300.00087914
+Content advertisement at time: 305.000879393
+Content advertisement at time: 310.000879393
+Content advertisement at time: 315.000879393
+Content advertisement at time: 320.000879393
+Content advertisement at time: 325.000879393
+Content advertisement at time: 330.000879393
+Content advertisement at time: 335.000879393
+Content advertisement at time: 340.000879393
+Content advertisement at time: 345.000879393
+Content advertisement at time: 350.000879393
+Content advertisement at time: 355.000879393
+Content advertisement at time: 360.000879393
+Content advertisement at time: 365.000879393
+Content advertisement at time: 370.000889817
+Content advertisement at time: 375.000889817
+Content advertisement at time: 380.000889817
+Content advertisement at time: 385.000889817
+Content advertisement at time: 390.000889817
+Content advertisement at time: 395.000889817
+Content advertisement at time: 400.000889817
+Content advertisement at time: 405.000889817
+Content advertisement at time: 410.000889817
+Content advertisement at time: 415.000889817
+Content advertisement at time: 420.000889817
+Content advertisement at time: 425.000889817
+Content advertisement at time: 430.000889817
+Content advertisement at time: 435.000889817
+Content advertisement at time: 440.000889817
+Content advertisement at time: 445.000889817
+Content advertisement at time: 450.000889817
+Content advertisement at time: 455.000889817
+Content a[06:18:30 2019-05-14|INFO|runner-PoolWorker-1] Experiment 15/20 | End simulation | Duration 4h 36m 22s.
+[06:18:30 2019-05-14|INFO|orchestration] SUMMARY | Completed: 16, Failed: 0, Scheduled: 4, ETA: 1h 7m
+56
+Content advertisement at time: 960.05356291
+Error in NDN: Flow: 1915 has not completed. Terminating flow...
+Error in NDN: Flow: 1916 has not completed. Terminating flow...
+Content advertisement at time: 965.05456291
+Content advertisement at time: 970.05556291
+Content advertisement at time: 975.05803848
+Content advertisement at time: 980.06303848
+Content advertisement at time: 985.063990456
+Error in NDN: Flow: 1989 has not completed. Terminating flow...
+Error in NDN: Flow: 2000 has not completed. Terminating flow...
+Content advertisement at time: 990.08803848
+Error in NDN: Flow: 2004 has not completed. Terminating flow...
+Content advertisement at time: 995.09803848
+Content advertisement at time: 1000.09899046
+Error in NDN: Flow: 2044 has not completed. Terminating flow...
+Error in NDN: Flow: 2046 has not completed. Terminating flow...
+Error in NDN: Flow: 2052 has not completed. Terminating flow...
+Content advertisement at time: 1005.12103848
+Error in NDN: Flow: 2060 has not completed. Terminating flow...
+Error in NDN: Flow: 2066 has not completed. Terminating flow...
+Error in NDN: Flow: 2067 has not completed. Terminating flow...
+Content advertisement at time: 1010.12603848
+Error in NDN: Flow: 2076 has not completed. Terminating flow...
+Error in NDN: Flow: 2080 has not completed. Terminating flow...
+Content advertisement at time: 1015.13103848
+Content advertisement at time: 1020.13603848
+Error in NDN: Flow: 2094 has not completed. Terminating flow...
+Error in NDN: Flow: 2099 has not completed. Terminating flow...
+Error in NDN: Flow: 2106 has not completed. Terminating flow...
+Content advertisement at time: 1025.13899046
+Error in NDN: Flow: 2111 has not completed. Terminating flow...
+Error in NDN: Flow: 2115 has not completed. Terminating flow...
+Content advertisement at time: 1030.14603848
+Error in NDN: Flow: 2128 has not completed. Terminating flow...
+Error in NDN: Flow: 2130 has not completed. Terminating flow...
+Error in NDN: Flow: 2133 has not completed. Terminating flow...
+Error in NDN: Flow: 2136 has not completed. Terminating flow...
+Error in NDN: Flow: 2138 has not completed. Terminating flow...
+Content advertisement at time: 1035.14899046
+Error in NDN: Flow: 2150 has not completed. Terminating flow...
+Content advertisement at time: 1040.15603848
+Error in NDN: Flow: 2163 has not completed. Terminating flow...
+Error in NDN: Flow: 2171 has not completed. Terminating flow...
+Content advertisement at time: 1045.16103848
+Error in NDN: Flow: 2195 has not completed. Terminating flow...
+Content advertisement at time: 1050.16103848
+Error in NDN: Flow: 2201 has not completed. Terminating flow...
+Content advertisement at time: 1055.16803848
+Error in NDN: Flow: 2218 has not completed. Terminating flow...
+Error in NDN: Flow: 2225 has not completed. Terminating flow...
+Content advertisement at time: 1060.17603848
+Error in NDN: Flow: 2250 has not completed. Terminating flow...
+Error in NDN: Flow: 2251 has not completed. Terminating flow...
+Content advertisement at time: 1065.18103848
+Error in NDN: Flow: 2272 has not completed. Terminating flow...
+Content advertisement at time: 1070.18603848
+Error in NDN: Flow: 2279 has not completed. Terminating flow...
+Error in NDN: Flow: 2280 has not completed. Terminating flow...
+Error in NDN: Flow: 2288 has not completed. Terminating flow...
+Error in NDN: Flow: 2289 has not completed. Terminating flow...
+Content advertisement at time: 1075.19103848
+Error in NDN: Flow: 2294 has not completed. Terminating flow...
+Error in NDN: Flow: 2300 has not completed. Terminating flow...
+Content advertisement at time: 1080.19603848
+Error in NDN: Flow: 2315 has not completed. Terminating flow...
+Error in NDN: Flow: 2319 has not completed. Terminating flow...
+Content advertisement at time: 1085.19703848
+Error in NDN: Flow: 2327 has not completed. Terminating flow...
+Error in NDN: Flow: 2328 has not completed. Terminating flow...
+Content advertisement at time: 1090.21399046
+Error in NDN: Flow: 2338 has not completed. Terminating flow...
+Error in NDN: Flow: 2341 has not completed. Terminating flow...
+Error[06:54:13 2019-05-14|INFO|runner-PoolWorker-10] Experiment 10/20 | End simulation | Duration 6h 27m 54s.
+Content advertisement at time: 5.00013320343
+Content advertisement at time: 10.0001965061
+Content advertisement at time: 15.0002651693
+Content advertisement at time: 20.0002651693
+Content advertisement at time: 25.0002651693
+Content advertisement at time: 30.0002651693
+Content advertisement at time: 35.0002687342
+Content advertisement at time: 40.0002687342
+Content advertisement at time: 45.0002687342
+Content advertisement at time: 50.0002687342
+Content advertisement at time: 55.0002687342
+Content advertisement at time: 60.0002687342
+Content advertisement at time: 65.0002687342
+Content advertisement at time: 70.0002899328
+Content advertisement at time: 75.000311491
+Content advertisement at time: 80.0003458447
+Content advertisement at time: 85.0003688232
+Content advertisement at time: 90.0003688232
+Content advertisement at time: 95.0003882043
+Content advertisement at time: 100.000391027
+Content advertisement at time: 105.000408482
+Content advertisement at time: 110.000417561
+Content advertisement at time: 115.000432252
+Content advertisement at time: 120.000432252
+Content advertisement at time: 125.000454379
+Content advertisement at time: 130.000455612
+Content advertisement at time: 135.000457162
+Content advertisement at time: 140.000466692
+Content advertisement at time: 145.000466692
+Content advertisement at time: 150.000466692
+Content advertisement at time: 155.000483933
+Content advertisement at time: 160.000493138
+Content advertisement at time: 165.000502645
+Content advertisement at time: 170.000520115
+Content advertisement at time: 175.00056088
+Content advertisement at time: 180.000569823
+Content advertisement at time: 185.000569823
+Content advertisement at time: 190.000580751
+Content advertisement at time: 195.000581165
+Content advertisement at time: 200.000582692
+Content advertisement at time: 205.000590936
+Content advertisement at time: 210.000608678
+Content advertisement at time: 215.000615172
+Content advertisement at time: 220.000615172
+Content advertisement at time: 225.000615172
+Content advertisement at time: 230.000615172
+Content advertisement at time: 235.00062247
+Content advertisement at time: 240.000625347
+Content advertisement at time: 245.000631154
+Content advertisement at time: 250.000632722
+Content advertisement at time: 255.000655029
+Content advertisement at time: 260.000664329
+Content advertisement at time: 265.000664329
+Content advertisement at time: 270.000664329
+Content advertisement at time: 275.000664329
+Content advertisement at time: 280.000664329
+Content advertisement at time: 285.000664329
+Content advertisement at time: 290.000664329
+Content advertisement at time: 295.000664329
+Content advertisement at time: 300.000664329
+Content advertisement at time: 305.000664329
+Content advertisement at time: 310.000664329
+Content advertisement at time: 315.000664329
+Content advertisement at time: 320.000666117
+Content advertisement at time: 325.000669756
+Content advertisement at time: 330.000669756
+Content advertisement at time: 335.000672727
+Content advertisement at time: 340.000672727
+Content advertisement at time: 345.000672727
+Content advertisement at time: 350.000672727
+Content advertisement at time: 355.000672727
+Content advertisement at time: 360.000672727
+Content advertisement at time: 365.000672727
+Content advertisement at time: 370.000672727
+Content advertisement at time: 375.000672727
+Content advertisement at time: 380.000672727
+Content advertisement at time: 385.000672727
+Content advertisement at time: 390.000689065
+Content advertisement at time: 395.000689065
+Content advertisement at time: 400.000690689
+Content advertisement at time: 405.000690689
+Content advertisement at time: 410.000690689
+Content advertisement at time: 415.000690689
+Content advertisement at time: 420.000690689
+Content advertisement at time: 425.000690689
+Content advertisement at time: 430.000690689
+Content advertisement at time: 435.000697596
+Content advertisement at time: 440.000700527
+Content advertisement at time: 445.00075307
+Content advertisement at time: 450.000754168
+Content advertisement at time: 455.000754168
+ConteContent advertisement at time: 5.00013320343
+Content advertisement at time: 10.0002899328
+Content advertisement at time: 15.0004250252
+Content advertisement at time: 20.0004250252
+Content advertisement at time: 25.0004250252
+Content advertisement at time: 30.0004250252
+Content advertisement at time: 35.0004250252
+Content advertisement at time: 40.0004250252
+Content advertisement at time: 45.0004250252
+Content advertisement at time: 50.0004250252
+Content advertisement at time: 55.0004250252
+Content advertisement at time: 60.0004250252
+Content advertisement at time: 65.0004250252
+Content advertisement at time: 70.0004284453
+Content advertisement at time: 75.0004349643
+Content advertisement at time: 80.0004349643
+Content advertisement at time: 85.0004401131
+Content advertisement at time: 90.0004911209
+Content advertisement at time: 95.0004995268
+Content advertisement at time: 100.000509383
+Content advertisement at time: 105.000529972
+Content advertisement at time: 110.000575051
+Content advertisement at time: 115.000580697
+Content advertisement at time: 120.000592485
+Content advertisement at time: 125.000594188
+Content advertisement at time: 130.000606447
+Content advertisement at time: 135.000606447
+Content advertisement at time: 140.000609858
+Content advertisement at time: 145.000609858
+Content advertisement at time: 150.000609858
+Content advertisement at time: 155.000620225
+Content advertisement at time: 160.000634392
+Content advertisement at time: 165.000634847
+Content advertisement at time: 170.000657481
+Content advertisement at time: 175.000673688
+Content advertisement at time: 180.000687547
+Content advertisement at time: 185.000687547
+Content advertisement at time: 190.000687547
+Content advertisement at time: 195.000687547
+Content advertisement at time: 200.000694216
+Content advertisement at time: 205.000694216
+Content advertisement at time: 210.000694216
+Content advertisement at time: 215.000694216
+Content advertisement at time: 220.000694216
+Content advertisement at time: 225.000701364
+Content advertisement at time: 230.00071558
+Content advertisement at time: 235.00071558
+Content advertisement at time: 240.00071558
+Content advertisement at time: 245.00071558
+Content advertisement at time: 250.00071558
+Content advertisement at time: 255.00071558
+Content advertisement at time: 260.00071558
+Content advertisement at time: 265.00071558
+Content advertisement at time: 270.00071558
+Content advertisement at time: 275.00071558
+Content advertisement at time: 280.00071558
+Content advertisement at time: 285.00071558
+Content advertisement at time: 290.00071558
+Content advertisement at time: 295.00071558
+Content advertisement at time: 300.00071558
+Content advertisement at time: 305.00071558
+Content advertisement at time: 310.00071558
+Content advertisement at time: 315.00071558
+Content advertisement at time: 320.00071558
+Content advertisement at time: 325.00071558
+Content advertisement at time: 330.00071558
+Content advertisement at time: 335.00071558
+Content advertisement at time: 340.00071558
+Content advertisement at time: 345.00071558
+Content advertisement at time: 350.00071558
+Content advertisement at time: 355.00071558
+Content advertisement at time: 360.00071558
+Content advertisement at time: 365.00071558
+Content advertisement at time: 370.00071558
+Content advertisement at time: 375.00071558
+Content advertisement at time: 380.00071558
+Content advertisement at time: 385.00071558
+Content advertisement at time: 390.00071558
+Content advertisement at time: 395.00071558
+Content advertisement at time: 400.00071558
+Content advertisement at time: 405.000716864
+Content advertisement at time: 410.000716864
+Error in IPFS: Flow: 73 has not completed. Terminating flow...
+Error in IPFS: Flow: 88 has not completed. Terminating flow...
+Content advertisement at time: 415.000716864
+Error in IPFS: Flow: 141 has not completed. Terminating flow...
+Content advertisement at time: 420.000716864
+Content advertisement at time: 425.000716864
+Content advertisement at time: 430.000716864
+Content advertisement at time: 435.000716864
+Content advertisement at t[07:24:53 2019-05-14|INFO|runner-PoolWorker-12] Experiment 18/20 | End simulation | Duration 3h 16m 5s.
+[07:37:27 2019-05-14|INFO|runner-PoolWorker-11] Experiment 19/20 | End simulation | Duration 3h 21m 45s.
+Content advertisement at time: 5.00013320343
+Content advertisement at time: 10.0002161794
+Content advertisement at time: 15.0002375734
+Content advertisement at time: 20.0002675457
+Content advertisement at time: 25.0002675457
+Content advertisement at time: 30.0002675457
+Content advertisement at time: 35.0002721718
+Content advertisement at time: 40.0002721718
+Content advertisement at time: 45.0002721718
+Content advertisement at time: 50.0002899328
+Content advertisement at time: 55.0002899328
+Content advertisement at time: 60.0002899328
+Content advertisement at time: 65.0002899328
+Content advertisement at time: 70.0002975356
+Content advertisement at time: 75.0002975356
+Content advertisement at time: 80.0002975356
+Content advertisement at time: 85.0002975356
+Content advertisement at time: 90.0002976494
+Content advertisement at time: 95.0003022347
+Content advertisement at time: 100.000304423
+Content advertisement at time: 105.000316877
+Content advertisement at time: 110.000357681
+Content advertisement at time: 115.000389819
+Content advertisement at time: 120.000402796
+Content advertisement at time: 125.000435991
+Content advertisement at time: 130.000438477
+Content advertisement at time: 135.000445515
+Content advertisement at time: 140.000445515
+Content advertisement at time: 145.000481669
+Content advertisement at time: 150.000481669
+Content advertisement at time: 155.000481669
+Content advertisement at time: 160.000481669
+Content advertisement at time: 165.000481669
+Content advertisement at time: 170.000497298
+Content advertisement at time: 175.000497298
+Content advertisement at time: 180.000522811
+Content advertisement at time: 185.000522811
+Content advertisement at time: 190.000522811
+Content advertisement at time: 195.000522811
+Content advertisement at time: 200.000522811
+Content advertisement at time: 205.000522811
+Content advertisement at time: 210.000529326
+Content advertisement at time: 215.000532026
+Content advertisement at time: 220.000534169
+Content advertisement at time: 225.000547476
+Content advertisement at time: 230.000562852
+Content advertisement at time: 235.000571718
+Content advertisement at time: 240.000580196
+Content advertisement at time: 245.000588132
+Content advertisement at time: 250.000604748
+Content advertisement at time: 255.000622022
+Content advertisement at time: 260.000622022
+Content advertisement at time: 265.000622022
+Content advertisement at time: 270.000622022
+Content advertisement at time: 275.000622022
+Content advertisement at time: 280.000622022
+Content advertisement at time: 285.000622022
+Content advertisement at time: 290.000622022
+Content advertisement at time: 295.000622022
+Content advertisement at time: 300.000622022
+Content advertisement at time: 305.000622022
+Content advertisement at time: 310.000622022
+Content advertisement at time: 315.000622022
+Content advertisement at time: 320.000622733
+Content advertisement at time: 325.000622733
+Content advertisement at time: 330.000622733
+Content advertisement at time: 335.000622733
+Content advertisement at time: 340.000622733
+Content advertisement at time: 345.000622733
+Content advertisement at time: 350.000622733
+Content advertisement at time: 355.000622733
+Content advertisement at time: 360.000622733
+Content advertisement at time: 365.000622733
+Content advertisement at time: 370.000622733
+Content advertisement at time: 375.000622733
+Content advertisement at time: 380.000622733
+Content advertisement at time: 385.000622733
+Content advertisement at time: 390.000622733
+Content advertisement at time: 395.000622733
+Content advertisement at time: 400.000622733
+Content advertisement at time: 405.000622733
+Content advertisement at time: 410.000622733
+Content advertisement at time: 415.000650819
+Content advertisement at time: 420.000659266
+Content advertisement at time: 425.000661506
+Content advertisement at time: 430.000712218
+Error in IPFS: Flow: 256 has not completed. Terminating flow...
+Content advertisement at time: 435.000752038
+Error in IPFS: Flow: 321 has not completed. Terminating flow...
+Content advertisement at time: 440.000752038
+Error in[08:27:04 2019-05-14|INFO|runner-PoolWorker-8] Experiment 20/20 | End simulation | Duration 3h 12m 29s.
+[08:27:04 2019-05-14|INFO|orchestration] SUMMARY | Completed: 20, Failed: 0, Scheduled: 0, ETA: 0m
+60.000653839
+Content advertisement at time: 465.000675167
+Content advertisement at time: 470.000675167
+Content advertisement at time: 475.00076734
+Content advertisement at time: 480.007095906
+End of iteration: len(eventObj): 0
+ent at time: 840.162172074
+Content advertisement at time: 845.167172074
+Content advertisement at time: 850.172172074
+Content advertisement at time: 855.177172074
+Content advertisement at time: 860.182172074
+Content advertisement at time: 865.185172074
+Content advertisement at time: 870.186172074
+Content advertisement at time: 875.187172074
+Content advertisement at time: 880.190172074
+End of iteration: len(eventObj): 0
+isement at time: 460.001040082
+Content advertisement at time: 465.001046624
+Content advertisement at time: 470.001046624
+Content advertisement at time: 475.001046624
+Content advertisement at time: 480.001046624
+Content advertisement at time: 485.001046624
+Content advertisement at time: 490.001053619
+Content advertisement at time: 495.001054959
+Content advertisement at time: 500.001065226
+Content advertisement at time: 505.001066415
+Content advertisement at time: 510.001108892
+Content advertisement at time: 515.001108892
+Content advertisement at time: 520.001149878
+Content advertisement at time: 525.001149878
+Content advertisement at time: 530.001149878
+Content advertisement at time: 535.001185502
+Content advertisement at time: 540.001185502
+Content advertisement at time: 545.001185502
+Content advertisement at time: 550.001185502
+Content advertisement at time: 555.001185502
+Content advertisement at time: 560.001185502
+Content advertisement at time: 565.001185502
+Content advertisement at time: 570.001213279
+Content advertisement at time: 575.001216831
+Content advertisement at time: 580.0012718
+Content advertisement at time: 585.0012718
+Content advertisement at time: 590.0012718
+Content advertisement at time: 595.0012718
+Content advertisement at time: 600.0012718
+Content advertisement at time: 605.00139521
+Content advertisement at time: 610.001402436
+Content advertisement at time: 615.001537279
+Content advertisement at time: 620.001596613
+Content advertisement at time: 625.001691676
+Content advertisement at time: 630.002503672
+Content advertisement at time: 635.002711771
+Content advertisement at time: 640.002736781
+Content advertisement at time: 645.002950106
+Content advertisement at time: 650.002950106
+Content advertisement at time: 655.003402436
+Content advertisement at time: 660.003402436
+Content advertisement at time: 665.003402436
+Content advertisement at time: 670.003402436
+Content advertisement at time: 675.003402436
+Content advertisement at time: 680.003596613
+Content advertisement at time: 685.006596613
+Content advertisement at time: 690.006596613
+Content advertisement at time: 695.006596613
+Content advertisement at time: 700.006596613
+Content advertisement at time: 705.009985653
+Content advertisement at time: 710.013985653
+Content advertisement at time: 715.023985653
+Content advertisement at time: 720.032985653
+Content advertisement at time: 725.034985653
+Content advertisement at time: 730.040985653
+Content advertisement at time: 735.041985653
+Content advertisement at time: 740.052985653
+Content advertisement at time: 745.055985653
+Content advertisement at time: 750.058985653
+Content advertisement at time: 755.067985653
+Content advertisement at time: 760.072985653
+Content advertisement at time: 765.077985653
+Content advertisement at time: 770.082985653
+Content advertisement at time: 775.087985653
+Content advertisement at time: 780.092985653
+Content advertisement at time: 785.097985653
+Content advertisement at time: 790.102985653
+Content advertisement at time: 795.107985653
+Content advertisement at time: 800.112985653
+Content advertisement at time: 805.117985653
+Content advertisement at time: 810.122985653
+Content advertisement at time: 815.127985653
+Content advertisement at time: 820.132985653
+Content advertisement at time: 825.134985653
+Content advertisement at time: 830.142985653
+Content advertisement at time: 835.143985653
+Content advertisement at time: 840.145985653
+Content advertisement at time: 845.157985653
+Content advertisement at time: 850.162985653
+Content advertisement at time: 855.163985653
+Content advertisement at time: 860.172985653
+Content advertisement at time: 865.177985653
+Content advertisement at time: 870.182985653
+Content advertisement at time: 875.187985653
+Content advertisement at time: 880.196985653
+Content advertisement at time: 885.196985653
+End of iteration: len(eventObj): 0
+leted. Terminating flow...
+Error in NDN: Flow: 1157 has not completed. Terminating flow...
+Error in NDN: Flow: 1168 has not completed. Terminating flow...
+Content advertisement at time: 780.006632262
+Error in NDN: Flow: 1172 has not completed. Terminating flow...
+Error in NDN: Flow: 1201 has not completed. Terminating flow...
+Content advertisement at time: 785.007779488
+Error in NDN: Flow: 1228 has not completed. Terminating flow...
+Content advertisement at time: 790.007976534
+Content advertisement at time: 795.008006327
+Content advertisement at time: 800.008200264
+Error in NDN: Flow: 1265 has not completed. Terminating flow...
+Content advertisement at time: 805.008976534
+Content advertisement at time: 810.009012181
+Error in NDN: Flow: 1293 has not completed. Terminating flow...
+Content advertisement at time: 815.009632262
+Error in NDN: Flow: 1319 has not completed. Terminating flow...
+Content advertisement at time: 820.009632262
+Content advertisement at time: 825.009632262
+Error in NDN: Flow: 1379 has not completed. Terminating flow...
+Content advertisement at time: 830.010632262
+Content advertisement at time: 835.014976534
+Content advertisement at time: 840.015012181
+Error in NDN: Flow: 1419 has not completed. Terminating flow...
+Error in NDN: Flow: 1421 has not completed. Terminating flow...
+Content advertisement at time: 845.016012181
+Content advertisement at time: 850.016976534
+Error in NDN: Flow: 1505 has not completed. Terminating flow...
+Error in NDN: Flow: 1509 has not completed. Terminating flow...
+Content advertisement at time: 855.03162697
+Content advertisement at time: 860.031682609
+Content advertisement at time: 865.032570514
+Error in NDN: Flow: 1573 has not completed. Terminating flow...
+Error in NDN: Flow: 1610 has not completed. Terminating flow...
+Content advertisement at time: 870.046570514
+Error in NDN: Flow: 1652 has not completed. Terminating flow...
+Error in NDN: Flow: 1655 has not completed. Terminating flow...
+Content advertisement at time: 875.056682609
+Error in NDN: Flow: 1689 has not completed. Terminating flow...
+Content advertisement at time: 880.064682609
+Error in NDN: Flow: 1719 has not completed. Terminating flow...
+Content advertisement at time: 885.065012181
+Error in NDN: Flow: 1730 has not completed. Terminating flow...
+Error in NDN: Flow: 1731 has not completed. Terminating flow...
+Content advertisement at time: 890.065682609
+Content advertisement at time: 895.079682609
+Error in NDN: Flow: 1764 has not completed. Terminating flow...
+Content advertisement at time: 900.081682609
+Error in NDN: Flow: 1780 has not completed. Terminating flow...
+Content advertisement at time: 905.082682609
+Content advertisement at time: 910.094682609
+Error in NDN: Flow: 1819 has not completed. Terminating flow...
+Content advertisement at time: 915.099682609
+Content advertisement at time: 920.104682609
+Content advertisement at time: 925.186682609
+End of iteration: len(eventObj): 0
+e: 460.000774451
+Content advertisement at time: 465.000774451
+Content advertisement at time: 470.000879677
+End of iteration: len(eventObj): 0
+ in NDN: Flow: 2347 has not completed. Terminating flow...
+Error in NDN: Flow: 2349 has not completed. Terminating flow...
+Content advertisement at time: 1095.24503848
+Error in NDN: Flow: 2364 has not completed. Terminating flow...
+Error in NDN: Flow: 2365 has not completed. Terminating flow...
+Error in NDN: Flow: 2366 has not completed. Terminating flow...
+Error in NDN: Flow: 2367 has not completed. Terminating flow...
+Content advertisement at time: 1100.25003848
+Error in NDN: Flow: 2383 has not completed. Terminating flow...
+Error in NDN: Flow: 2390 has not completed. Terminating flow...
+Content advertisement at time: 1105.25503848
+Error in NDN: Flow: 2396 has not completed. Terminating flow...
+Content advertisement at time: 1110.26003848
+Error in NDN: Flow: 2419 has not completed. Terminating flow...
+Error in NDN: Flow: 2421 has not completed. Terminating flow...
+Error in NDN: Flow: 2424 has not completed. Terminating flow...
+Error in NDN: Flow: 2438 has not completed. Terminating flow...
+Content advertisement at time: 1115.26203848
+Error in NDN: Flow: 2444 has not completed. Terminating flow...
+Content advertisement at time: 1120.27003848
+Error in NDN: Flow: 2454 has not completed. Terminating flow...
+Content advertisement at time: 1125.27503848
+Error in NDN: Flow: 2467 has not completed. Terminating flow...
+Content advertisement at time: 1130.28003848
+End of iteration: len(eventObj): 0
+ontent advertisement at time: 460.000516481
+Content advertisement at time: 465.000516481
+Content advertisement at time: 470.000936727
+Content advertisement at time: 475.000973759
+End of iteration: len(eventObj): 0
+dvertisement at time: 460.000889817
+Content advertisement at time: 465.000889817
+Content advertisement at time: 470.001120705
+Content advertisement at time: 475.001120705
+Content advertisement at time: 480.001879393
+End of iteration: len(eventObj): 0
+ IPFS: Flow: 361 has not completed. Terminating flow...
+Error in IPFS: Flow: 380 has not completed. Terminating flow...
+Content advertisement at time: 445.000752505
+Content advertisement at time: 450.000752505
+Error in IPFS: Flow: 469 has not completed. Terminating flow...
+Error in IPFS: Flow: 470 has not completed. Terminating flow...
+Error in IPFS: Flow: 492 has not completed. Terminating flow...
+Content advertisement at time: 455.000808475
+Content advertisement at time: 460.000889449
+Error in IPFS: Flow: 549 has not completed. Terminating flow...
+Error in IPFS: Flow: 562 has not completed. Terminating flow...
+Error in IPFS: Flow: 590 has not completed. Terminating flow...
+Error in IPFS: Flow: 593 has not completed. Terminating flow...
+Error in IPFS: Flow: 599 has not completed. Terminating flow...
+Error in IPFS: Flow: 600 has not completed. Terminating flow...
+Content advertisement at time: 465.000950421
+Error in IPFS: Flow: 608 has not completed. Terminating flow...
+Error in IPFS: Flow: 623 has not completed. Terminating flow...
+Error in IPFS: Flow: 638 has not completed. Terminating flow...
+Error in IPFS: Flow: 655 has not completed. Terminating flow...
+Error in IPFS: Flow: 659 has not completed. Terminating flow...
+Content advertisement at time: 470.000950421
+Error in IPFS: Flow: 667 has not completed. Terminating flow...
+Error in IPFS: Flow: 676 has not completed. Terminating flow...
+Error in IPFS: Flow: 700 has not completed. Terminating flow...
+Content advertisement at time: 475.000950421
+Error in IPFS: Flow: 716 has not completed. Terminating flow...
+Error in IPFS: Flow: 729 has not completed. Terminating flow...
+Error in IPFS: Flow: 744 has not completed. Terminating flow...
+Error in IPFS: Flow: 751 has not completed. Terminating flow...
+Error in IPFS: Flow: 765 has not completed. Terminating flow...
+Error in IPFS: Flow: 768 has not completed. Terminating flow...
+Content advertisement at time: 480.000991779
+Error in IPFS: Flow: 783 has not completed. Terminating flow...
+Error in IPFS: Flow: 786 has not completed. Terminating flow...
+Content advertisement at time: 485.000991779
+Content advertisement at time: 490.001052635
+Content advertisement at time: 495.001066649
+End of iteration: len(eventObj): 0
+nt advertisement at time: 460.000754168
+Content advertisement at time: 465.000754168
+Content advertisement at time: 470.000754168
+Content advertisement at time: 475.000754168
+End of iteration: len(eventObj): 0
+ime: 440.000720379
+Error in IPFS: Flow: 349 has not completed. Terminating flow...
+Content advertisement at time: 445.000728432
+Content advertisement at time: 450.000731466
+Error in IPFS: Flow: 457 has not completed. Terminating flow...
+Content advertisement at time: 455.000731466
+Error in IPFS: Flow: 474 has not completed. Terminating flow...
+Error in IPFS: Flow: 488 has not completed. Terminating flow...
+Content advertisement at time: 460.000739289
+Error in IPFS: Flow: 535 has not completed. Terminating flow...
+Error in IPFS: Flow: 554 has not completed. Terminating flow...
+Content advertisement at time: 465.000800712
+Error in IPFS: Flow: 565 has not completed. Terminating flow...
+Content advertisement at time: 470.000800712
+Content advertisement at time: 475.000800712
+Content advertisement at time: 480.000905322
+Error in IPFS: Flow: 708 has not completed. Terminating flow...
+Error in IPFS: Flow: 739 has not completed. Terminating flow...
+Error in IPFS: Flow: 749 has not completed. Terminating flow...
+Error in IPFS: Flow: 750 has not completed. Terminating flow...
+Content advertisement at time: 485.000936966
+Error in IPFS: Flow: 779 has not completed. Terminating flow...
+Content advertisement at time: 490.001159215
+End of iteration: len(eventObj): 0
+at time: 460.000784515
+Content advertisement at time: 465.000822857
+Content advertisement at time: 470.000822857
+Content advertisement at time: 475.000822857
+End of iteration: len(eventObj): 0
+[08:27:07 2019-05-14|INFO|orchestration] END | Planned: 20, Completed: 20, Succeeded: 20, Failed: 0
+[08:27:07 2019-05-14|INFO|main] Orchestrator finished
+[08:27:07 2019-05-14|INFO|main] Saved results to file /space/onur/acm_icn_2019/examples/servicenet/results_zipf.pickle
+
+# Plot results
+echo "Plot results"
+Plot results
+python ${CURR_DIR}/plotresults.py --results ${RESULTS_FILE} --output ${PLOTS_DIR} ${CONFIG_FILE}
+/usr/lib64/python2.7/site-packages/matplotlib/__init__.py:1005: UserWarning:  This call to matplotlib.use() has no effect
+because the the backend has already been chosen;
+matplotlib.use() must be called *before* pylab, matplotlib.pyplot,
+or matplotlib.backends is imported for the first time.
+
+  warnings.warn(_use_error_msg)
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.5
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_chunks 1000
+	playback_rate 10
+	name OPTIMAL
+	wndw_size 10
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	wndw_size 10
+	playback_rate 10
+	name OPTIMAL
+	n_chunks 1000
+ desc strategy: OPTIMAL alpha 0.5
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 0.002
+	CACHE_HIT_RATIO 0.951305333333
+	OVERHEAD 3.797069
+	BUFFERING_PER_CONTENT
+		64 1
+		1 1
+		6 1
+		81 1
+		54 1
+		62 1
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.25
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_chunks 1000
+	playback_rate 10
+	name OPTIMAL
+	wndw_size 10
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	wndw_size 10
+	playback_rate 10
+	name OPTIMAL
+	n_chunks 1000
+ desc strategy: OPTIMAL alpha 0.25
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 0.002
+	CACHE_HIT_RATIO 0.952874666667
+	OVERHEAD 3.85160733333
+	BUFFERING_PER_CONTENT
+		35 1
+		9 1
+		47 1
+		16 1
+		83 1
+		21 1
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.1
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_chunks 1000
+	playback_rate 10
+	name OPTIMAL
+	wndw_size 10
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	wndw_size 10
+	playback_rate 10
+	name OPTIMAL
+	n_chunks 1000
+ desc strategy: OPTIMAL alpha 0.1
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 0.00433333333333
+	CACHE_HIT_RATIO 0.952033
+	OVERHEAD 3.88936533333
+	BUFFERING_PER_CONTENT
+		32 1
+		98 2
+		3 2
+		69 1
+		71 1
+		42 1
+		44 1
+		85 1
+		86 1
+		23 1
+		56 1
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.75
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_chunks 1000
+	playback_rate 10
+	name OPTIMAL
+	wndw_size 10
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	wndw_size 10
+	playback_rate 10
+	name OPTIMAL
+	n_chunks 1000
+ desc strategy: OPTIMAL alpha 0.75
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 0.00166666666667
+	CACHE_HIT_RATIO 0.948814
+	OVERHEAD 3.67704266667
+	BUFFERING_PER_CONTENT
+		16 1
+		12 1
+		43 1
+		4 1
+		25 1
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 1.0
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_chunks 1000
+	playback_rate 10
+	name OPTIMAL
+	wndw_size 10
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	wndw_size 10
+	playback_rate 10
+	name OPTIMAL
+	n_chunks 1000
+ desc strategy: OPTIMAL alpha 1.0
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 0.000666666666667
+	CACHE_HIT_RATIO 0.945005
+	OVERHEAD 3.48545233333
+	BUFFERING_PER_CONTENT
+		1 1
+		13 1
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.25
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN_MEASUREMENT
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN_MEASUREMENT
+	wndw_size 10
+	n_chunks 1000
+ desc strategy: NDN_MEASUREMENT alpha 0.25
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 1.04433333333
+	CACHE_HIT_RATIO 0.805815
+	OVERHEAD 7.239124
+	BUFFERING_PER_CONTENT
+		1 93
+		2 215
+		3 26
+		4 74
+		5 113
+		6 28
+		7 49
+		8 67
+		9 51
+		10 93
+		11 71
+		12 65
+		13 5
+		14 25
+		15 24
+		16 56
+		17 76
+		18 86
+		19 60
+		20 51
+		21 15
+		22 7
+		23 86
+		24 65
+		25 17
+		26 59
+		27 61
+		28 14
+		29 33
+		30 24
+		31 51
+		32 11
+		33 18
+		34 9
+		35 2
+		36 9
+		38 64
+		39 11
+		40 13
+		41 6
+		42 36
+		43 27
+		44 4
+		45 15
+		46 26
+		47 14
+		48 9
+		49 1
+		50 13
+		51 36
+		52 7
+		53 27
+		54 14
+		55 10
+		56 29
+		57 20
+		58 38
+		59 60
+		60 15
+		61 6
+		62 7
+		63 42
+		64 32
+		65 26
+		67 76
+		68 17
+		69 3
+		70 12
+		71 5
+		72 3
+		73 10
+		74 23
+		75 17
+		76 17
+		77 10
+		78 39
+		79 27
+		80 11
+		81 14
+		82 48
+		83 14
+		84 16
+		85 11
+		86 9
+		87 7
+		88 62
+		89 30
+		90 5
+		91 1
+		92 11
+		94 32
+		95 11
+		96 25
+		98 84
+		99 66
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.1
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN_MEASUREMENT
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN_MEASUREMENT
+	wndw_size 10
+	n_chunks 1000
+ desc strategy: NDN_MEASUREMENT alpha 0.1
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 1.022
+	CACHE_HIT_RATIO 0.804808666667
+	OVERHEAD 7.24798033333
+	BUFFERING_PER_CONTENT
+		1 23
+		2 60
+		3 43
+		4 10
+		5 86
+		6 8
+		7 51
+		8 75
+		9 108
+		10 30
+		11 73
+		12 28
+		13 20
+		14 29
+		15 109
+		16 48
+		18 34
+		19 21
+		20 34
+		21 18
+		22 3
+		23 54
+		24 20
+		25 16
+		26 39
+		27 59
+		28 19
+		29 12
+		30 15
+		31 21
+		32 51
+		33 26
+		34 39
+		35 16
+		36 158
+		37 17
+		38 33
+		39 12
+		40 15
+		41 14
+		42 43
+		43 33
+		44 15
+		45 85
+		46 23
+		47 99
+		48 51
+		49 10
+		50 30
+		51 16
+		52 106
+		53 2
+		54 8
+		55 18
+		56 11
+		57 8
+		58 39
+		59 12
+		60 13
+		61 2
+		62 45
+		63 32
+		64 14
+		65 23
+		66 74
+		67 19
+		68 12
+		69 30
+		70 23
+		71 27
+		72 13
+		73 3
+		74 11
+		75 22
+		76 31
+		77 44
+		78 11
+		79 29
+		80 40
+		81 41
+		82 18
+		83 32
+		84 25
+		85 23
+		86 10
+		87 20
+		88 22
+		89 34
+		90 22
+		91 49
+		93 20
+		94 15
+		95 24
+		96 12
+		98 15
+		99 10
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.5
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN
+	load_balance_distance 1
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	n_chunks 1000
+	load_balance_distance 1
+	wndw_size 10
+	name NDN
+ desc strategy: NDN alpha 0.5
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 22.1723333333
+	CACHE_HIT_RATIO 0.836265818162
+	OVERHEAD 3.58831632369
+	BUFFERING_PER_CONTENT
+		1 8699
+		2 3660
+		3 3051
+		4 1497
+		5 1658
+		6 2431
+		7 1182
+		8 1207
+		9 1696
+		10 654
+		11 1374
+		12 590
+		13 1890
+		14 1575
+		15 1639
+		16 672
+		17 1415
+		18 1114
+		19 871
+		20 1356
+		21 1070
+		22 940
+		23 511
+		24 381
+		25 581
+		26 619
+		27 315
+		28 845
+		29 752
+		30 325
+		31 507
+		32 206
+		33 344
+		34 151
+		35 634
+		36 477
+		37 745
+		38 276
+		39 424
+		40 575
+		41 218
+		42 357
+		43 708
+		44 130
+		45 561
+		46 194
+		47 436
+		48 376
+		49 516
+		50 397
+		51 162
+		52 279
+		53 313
+		54 177
+		55 471
+		56 714
+		57 437
+		58 121
+		59 219
+		60 445
+		61 293
+		62 284
+		63 303
+		64 249
+		65 68
+		66 233
+		67 786
+		68 470
+		69 418
+		70 924
+		71 133
+		72 64
+		73 156
+		74 394
+		75 250
+		76 259
+		77 84
+		78 285
+		79 413
+		80 113
+		81 256
+		82 158
+		83 249
+		84 187
+		85 91
+		86 239
+		87 337
+		88 210
+		89 113
+		90 193
+		91 173
+		92 138
+		93 153
+		94 282
+		95 156
+		96 282
+		97 195
+		98 522
+		99 264
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.1
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name IPFS
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name IPFS
+	wndw_size 10
+	n_chunks 1000
+ desc strategy: IPFS alpha 0.1
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 2.482
+	CACHE_HIT_RATIO 0.847871333333
+	OVERHEAD 7.61653733333
+	BUFFERING_PER_CONTENT
+		1 152
+		2 75
+		3 266
+		4 110
+		5 97
+		6 3
+		7 105
+		9 664
+		10 76
+		13 9
+		14 583
+		15 82
+		16 32
+		17 192
+		18 169
+		19 4
+		20 24
+		21 3
+		22 266
+		23 88
+		24 46
+		26 17
+		27 221
+		28 10
+		30 10
+		31 72
+		33 177
+		34 250
+		35 71
+		36 23
+		38 233
+		43 88
+		44 227
+		45 68
+		46 20
+		47 26
+		48 178
+		49 87
+		50 31
+		51 84
+		52 5
+		53 13
+		54 7
+		55 61
+		56 26
+		57 14
+		58 138
+		59 60
+		60 42
+		61 44
+		62 9
+		63 22
+		65 1
+		68 1
+		69 313
+		71 65
+		72 77
+		73 340
+		76 12
+		77 9
+		78 96
+		80 13
+		81 2
+		82 91
+		84 126
+		85 2
+		86 485
+		87 2
+		89 94
+		90 17
+		94 4
+		95 39
+		97 24
+		98 156
+		99 97
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.5
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN_MEASUREMENT
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN_MEASUREMENT
+	wndw_size 10
+	n_chunks 1000
+ desc strategy: NDN_MEASUREMENT alpha 0.5
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 1.19466666667
+	CACHE_HIT_RATIO 0.807794333333
+	OVERHEAD 7.102247
+	BUFFERING_PER_CONTENT
+		1 530
+		2 293
+		3 158
+		4 188
+		5 51
+		6 143
+		7 89
+		8 94
+		9 41
+		10 82
+		11 43
+		12 76
+		13 55
+		14 32
+		15 30
+		16 77
+		17 25
+		18 38
+		19 63
+		20 46
+		21 58
+		22 28
+		23 56
+		24 71
+		25 6
+		26 31
+		27 36
+		28 21
+		29 43
+		30 24
+		31 59
+		32 31
+		33 23
+		34 49
+		35 32
+		36 3
+		37 23
+		38 13
+		39 19
+		40 39
+		41 8
+		42 29
+		43 10
+		44 65
+		45 27
+		46 15
+		48 14
+		49 3
+		50 15
+		51 4
+		52 8
+		53 20
+		54 41
+		55 9
+		56 6
+		57 11
+		58 1
+		59 47
+		60 5
+		61 5
+		62 25
+		63 22
+		64 60
+		66 26
+		67 17
+		68 4
+		69 8
+		70 4
+		71 7
+		72 13
+		73 34
+		74 4
+		75 8
+		78 27
+		79 6
+		80 15
+		82 1
+		83 28
+		84 6
+		85 11
+		86 6
+		87 47
+		88 7
+		89 5
+		90 3
+		92 4
+		93 12
+		94 1
+		95 4
+		98 5
+		99 2
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.25
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN
+	load_balance_distance 1
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	n_chunks 1000
+	load_balance_distance 1
+	wndw_size 10
+	name NDN
+ desc strategy: NDN alpha 0.25
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 21.079
+	CACHE_HIT_RATIO 0.848131442761
+	OVERHEAD 3.6780260207
+	BUFFERING_PER_CONTENT
+		1 2277
+		2 3657
+		3 1436
+		4 1036
+		5 895
+		6 996
+		7 913
+		8 1496
+		9 965
+		10 726
+		11 1576
+		12 1439
+		13 1256
+		14 388
+		15 437
+		16 796
+		17 674
+		18 431
+		19 746
+		20 600
+		21 383
+		22 440
+		23 513
+		24 831
+		25 1305
+		26 828
+		27 564
+		28 278
+		29 853
+		30 302
+		31 468
+		32 1327
+		33 494
+		34 986
+		35 480
+		36 663
+		37 558
+		38 562
+		39 415
+		40 626
+		41 385
+		42 329
+		43 281
+		44 453
+		45 787
+		46 339
+		47 367
+		48 590
+		49 393
+		50 473
+		51 302
+		52 1099
+		53 441
+		54 761
+		55 407
+		56 205
+		57 555
+		58 1047
+		59 86
+		60 823
+		61 185
+		62 526
+		63 297
+		64 709
+		65 1032
+		66 1145
+		67 625
+		68 573
+		69 152
+		70 313
+		71 324
+		72 419
+		73 127
+		74 594
+		75 614
+		76 237
+		77 665
+		78 730
+		79 209
+		80 332
+		81 470
+		82 703
+		83 86
+		84 421
+		85 619
+		86 438
+		87 203
+		88 306
+		89 206
+		90 342
+		91 310
+		92 344
+		93 670
+		94 245
+		95 256
+		96 738
+		97 303
+		98 380
+		99 650
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.25
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name IPFS
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name IPFS
+	wndw_size 10
+	n_chunks 1000
+ desc strategy: IPFS alpha 0.25
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 2.33133333333
+	CACHE_HIT_RATIO 0.849265666667
+	OVERHEAD 7.60813866667
+	BUFFERING_PER_CONTENT
+		1 689
+		2 459
+		3 550
+		4 381
+		5 587
+		8 172
+		9 97
+		11 176
+		12 72
+		14 80
+		16 48
+		17 80
+		18 20
+		20 28
+		21 190
+		22 117
+		23 13
+		25 152
+		26 28
+		28 47
+		29 62
+		30 2
+		31 81
+		32 195
+		33 16
+		34 24
+		35 24
+		36 117
+		38 1
+		39 33
+		40 7
+		41 28
+		42 53
+		43 63
+		44 9
+		45 31
+		47 8
+		49 20
+		50 34
+		51 39
+		52 196
+		53 8
+		54 49
+		55 6
+		56 15
+		57 11
+		58 8
+		59 368
+		60 6
+		61 73
+		62 8
+		64 15
+		65 1
+		66 22
+		67 290
+		68 9
+		69 5
+		70 27
+		71 2
+		72 46
+		73 50
+		77 84
+		78 40
+		81 13
+		82 106
+		83 56
+		84 45
+		85 4
+		86 79
+		87 30
+		88 31
+		90 186
+		91 228
+		93 21
+		94 2
+		95 1
+		96 20
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.1
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN
+	load_balance_distance 1
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	n_chunks 1000
+	load_balance_distance 1
+	wndw_size 10
+	name NDN
+ desc strategy: NDN alpha 0.1
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 20.477
+	CACHE_HIT_RATIO 0.846184333333
+	OVERHEAD 3.67130866667
+	BUFFERING_PER_CONTENT
+		1 543
+		2 961
+		3 1621
+		4 590
+		5 536
+		6 1613
+		7 568
+		8 476
+		9 459
+		10 593
+		11 1068
+		12 648
+		13 728
+		14 397
+		15 1269
+		16 492
+		17 1025
+		18 1179
+		19 441
+		20 362
+		21 619
+		22 926
+		23 232
+		24 666
+		25 755
+		26 506
+		27 639
+		28 732
+		29 192
+		30 1417
+		31 1363
+		32 418
+		33 1140
+		34 288
+		35 646
+		36 373
+		37 508
+		38 1095
+		39 966
+		40 764
+		41 702
+		42 342
+		43 598
+		44 434
+		45 141
+		46 696
+		47 588
+		48 220
+		49 982
+		50 447
+		51 843
+		52 504
+		53 782
+		54 610
+		55 570
+		56 255
+		57 706
+		58 379
+		59 590
+		60 609
+		61 323
+		62 626
+		63 1094
+		64 352
+		65 1035
+		66 421
+		67 766
+		68 348
+		69 117
+		70 789
+		71 309
+		72 278
+		73 230
+		74 364
+		75 959
+		76 184
+		77 789
+		78 884
+		79 240
+		80 1055
+		81 1010
+		82 268
+		83 565
+		84 718
+		85 758
+		86 462
+		87 534
+		88 461
+		89 397
+		90 195
+		91 626
+		92 557
+		93 253
+		94 555
+		95 244
+		96 352
+		97 147
+		98 391
+		99 963
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.75
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN
+	load_balance_distance 1
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	n_chunks 1000
+	load_balance_distance 1
+	wndw_size 10
+	name NDN
+ desc strategy: NDN alpha 0.75
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 24.8593333333
+	CACHE_HIT_RATIO 0.818033190299
+	OVERHEAD 3.41868877774
+	BUFFERING_PER_CONTENT
+		1 18420
+		2 7537
+		3 7260
+		4 2320
+		5 2912
+		6 3327
+		7 1771
+		8 868
+		9 1198
+		10 761
+		11 1692
+		12 1017
+		13 823
+		14 730
+		15 270
+		16 1366
+		17 670
+		18 568
+		19 616
+		20 659
+		21 442
+		22 1163
+		23 489
+		24 527
+		25 267
+		26 1306
+		27 763
+		28 563
+		29 289
+		30 615
+		31 414
+		32 811
+		33 116
+		34 287
+		35 311
+		36 229
+		37 282
+		38 302
+		39 258
+		40 340
+		41 178
+		42 417
+		43 400
+		44 112
+		45 120
+		46 78
+		47 183
+		48 261
+		49 152
+		50 150
+		51 115
+		52 29
+		53 428
+		54 587
+		55 203
+		56 175
+		57 279
+		58 666
+		59 259
+		60 192
+		61 29
+		62 194
+		63 173
+		64 31
+		65 311
+		66 444
+		67 162
+		68 60
+		69 118
+		70 69
+		71 271
+		72 324
+		73 132
+		74 64
+		75 28
+		76 46
+		77 60
+		78 288
+		79 222
+		80 190
+		81 28
+		82 103
+		83 42
+		84 33
+		85 107
+		87 49
+		88 100
+		89 60
+		90 16
+		91 83
+		92 21
+		93 216
+		94 30
+		95 289
+		96 78
+		97 134
+		98 192
+		99 238
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.75
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN_MEASUREMENT
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN_MEASUREMENT
+	wndw_size 10
+	n_chunks 1000
+ desc strategy: NDN_MEASUREMENT alpha 0.75
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 1.99666666667
+	CACHE_HIT_RATIO 0.808145333333
+	OVERHEAD 6.834979
+	BUFFERING_PER_CONTENT
+		1 1422
+		2 732
+		3 313
+		4 368
+		5 474
+		6 139
+		7 179
+		8 108
+		9 38
+		10 72
+		11 130
+		12 91
+		13 118
+		14 70
+		15 160
+		16 90
+		17 26
+		18 15
+		19 24
+		20 78
+		21 110
+		22 26
+		23 14
+		24 34
+		25 27
+		26 27
+		27 61
+		28 46
+		29 29
+		30 7
+		31 73
+		32 68
+		33 32
+		34 26
+		35 17
+		36 29
+		37 24
+		38 24
+		39 18
+		40 23
+		41 12
+		42 4
+		43 43
+		44 52
+		45 18
+		46 30
+		48 1
+		49 2
+		50 3
+		51 44
+		52 20
+		53 20
+		54 10
+		55 19
+		56 16
+		57 4
+		58 7
+		59 12
+		60 4
+		61 8
+		62 14
+		63 20
+		64 9
+		65 7
+		66 8
+		67 8
+		68 36
+		69 4
+		70 14
+		73 6
+		74 2
+		75 20
+		76 8
+		77 11
+		78 1
+		79 4
+		80 22
+		81 4
+		82 10
+		83 5
+		84 3
+		85 1
+		87 11
+		88 4
+		89 28
+		90 2
+		91 21
+		93 3
+		94 4
+		95 2
+		96 2
+		99 5
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 1.0
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN_MEASUREMENT
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN_MEASUREMENT
+	wndw_size 10
+	n_chunks 1000
+ desc strategy: NDN_MEASUREMENT alpha 1.0
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 3.30633333333
+	CACHE_HIT_RATIO 0.807199612727
+	OVERHEAD 6.22934297065
+	BUFFERING_PER_CONTENT
+		1 3267
+		2 1243
+		3 857
+		4 704
+		5 403
+		6 294
+		7 189
+		8 242
+		9 324
+		10 280
+		11 177
+		12 182
+		13 125
+		14 135
+		15 64
+		16 75
+		17 111
+		18 81
+		19 31
+		20 30
+		21 119
+		22 25
+		23 89
+		24 113
+		25 55
+		26 36
+		27 31
+		28 41
+		29 25
+		30 11
+		31 14
+		32 33
+		33 59
+		34 1
+		35 3
+		36 38
+		37 50
+		38 25
+		39 4
+		42 30
+		43 6
+		44 28
+		45 5
+		46 8
+		47 8
+		48 5
+		49 4
+		50 46
+		51 14
+		52 11
+		54 6
+		56 5
+		57 15
+		58 2
+		59 2
+		60 26
+		62 9
+		64 14
+		67 3
+		68 2
+		69 7
+		70 9
+		71 2
+		72 2
+		73 13
+		74 1
+		75 5
+		77 3
+		79 6
+		80 5
+		83 1
+		84 2
+		86 12
+		87 1
+		88 3
+		89 1
+		93 1
+		97 8
+		98 2
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 1.0
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name NDN
+	load_balance_distance 1
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	n_chunks 1000
+	load_balance_distance 1
+	wndw_size 10
+	name NDN
+ desc strategy: NDN alpha 1.0
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 30.0073333333
+	CACHE_HIT_RATIO 0.773794581324
+	OVERHEAD 3.22342284211
+	BUFFERING_PER_CONTENT
+		1 30480
+		2 13980
+		3 9172
+		4 4538
+		5 5716
+		6 2225
+		7 2746
+		8 2218
+		9 1151
+		10 1487
+		11 590
+		12 728
+		13 1064
+		14 687
+		15 474
+		16 510
+		17 889
+		18 642
+		19 392
+		20 262
+		21 1029
+		22 291
+		23 387
+		24 76
+		25 556
+		26 193
+		27 392
+		28 276
+		29 272
+		30 221
+		31 298
+		32 322
+		33 104
+		34 125
+		35 134
+		36 422
+		37 32
+		38 250
+		39 109
+		40 398
+		41 195
+		42 389
+		43 17
+		44 222
+		45 113
+		46 210
+		47 87
+		48 51
+		49 324
+		50 176
+		51 67
+		52 138
+		53 329
+		54 49
+		55 149
+		56 104
+		57 52
+		58 46
+		59 142
+		60 12
+		61 24
+		62 140
+		63 41
+		64 8
+		65 22
+		67 33
+		68 12
+		69 4
+		70 50
+		71 77
+		72 32
+		73 26
+		75 11
+		76 51
+		77 42
+		78 63
+		79 96
+		80 8
+		82 30
+		84 103
+		85 1
+		87 43
+		88 24
+		89 45
+		90 10
+		91 10
+		92 2
+		93 18
+		94 140
+		95 14
+		96 36
+		97 81
+		98 11
+		99 4
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.5
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name IPFS
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name IPFS
+	wndw_size 10
+	n_chunks 1000
+ desc strategy: IPFS alpha 0.5
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 2.84933333333
+	CACHE_HIT_RATIO 0.848570333333
+	OVERHEAD 7.57876933333
+	BUFFERING_PER_CONTENT
+		1 1356
+		2 1210
+		3 373
+		4 358
+		5 528
+		6 528
+		7 489
+		8 246
+		9 5
+		11 424
+		12 107
+		13 368
+		14 1
+		15 28
+		16 186
+		17 141
+		18 377
+		19 51
+		20 53
+		21 124
+		22 3
+		23 369
+		24 115
+		25 168
+		26 14
+		27 14
+		29 7
+		30 6
+		31 7
+		33 15
+		34 3
+		35 111
+		37 3
+		38 4
+		39 1
+		40 105
+		41 15
+		42 66
+		43 4
+		44 5
+		45 2
+		47 15
+		48 12
+		49 5
+		50 4
+		51 6
+		52 3
+		53 11
+		54 7
+		57 28
+		58 13
+		59 4
+		60 7
+		61 20
+		62 5
+		67 5
+		71 13
+		74 167
+		76 31
+		78 15
+		80 12
+		81 1
+		83 25
+		88 3
+		89 5
+		90 40
+		91 22
+		92 4
+		93 11
+		95 8
+		97 55
+		98 1
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 0.75
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name IPFS
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name IPFS
+	wndw_size 10
+	n_chunks 1000
+ desc strategy: IPFS alpha 0.75
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 2.797
+	CACHE_HIT_RATIO 0.852865903309
+	OVERHEAD 7.58057203941
+	BUFFERING_PER_CONTENT
+		1 1464
+		2 1646
+		3 594
+		4 719
+		5 896
+		6 64
+		7 255
+		8 69
+		9 115
+		10 481
+		11 1
+		12 57
+		13 19
+		14 23
+		15 60
+		16 396
+		17 97
+		18 2
+		19 78
+		20 14
+		21 339
+		22 6
+		23 25
+		25 86
+		26 57
+		27 11
+		29 122
+		30 9
+		31 102
+		32 3
+		33 3
+		34 27
+		36 13
+		37 12
+		40 35
+		42 36
+		43 8
+		44 9
+		45 2
+		47 70
+		48 14
+		56 2
+		57 1
+		58 31
+		59 15
+		60 6
+		62 21
+		64 3
+		65 99
+		74 1
+		75 18
+		76 3
+		78 6
+		84 60
+		88 4
+		92 43
+		95 1
+		96 38
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 10.0
+	n_measured 3000.0
+	alpha 1.0
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 1000
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name IPFS
+	wndw_size 10
+	n_chunks 1000
+ content_placement
+	name UNIFORM
+	n_chunks 1000
+ cache_placement
+	network_cache 1.0
+	cache_budget 2000
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 5.0
+	name IPFS
+	wndw_size 10
+	n_chunks 1000
+ desc strategy: IPFS alpha 1.0
+RESULTS:
+
+ VIDEO_PLAYBACK
+	ROUTER_HIT_RATIO 0.0
+	BUFFER_RATIO 2.864
+	CACHE_HIT_RATIO 0.854437339578
+	OVERHEAD 7.49943203612
+	BUFFERING_PER_CONTENT
+		1 1629
+		2 837
+		3 742
+		4 926
+		5 745
+		6 609
+		7 598
+		8 17
+		9 471
+		10 151
+		11 551
+		13 283
+		14 165
+		16 21
+		17 439
+		18 2
+		19 24
+		20 17
+		22 47
+		26 1
+		27 33
+		28 9
+		32 9
+		33 2
+		37 55
+		38 8
+		39 4
+		40 3
+		48 5
+		57 4
+		58 18
+		64 2
+		66 142
+		68 1
+		70 2
+		79 8
+		81 4
+		84 1
+		86 7

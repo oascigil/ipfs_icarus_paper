@@ -1,0 +1,114 @@
+
+# Directory where this script is located
+CURR_DIR=`pwd`
+pwd
+
+# Icarus main folder
+ICARUS_DIR=${CURR_DIR}/../..
+
+# Dir where plots will be saved 
+PLOTS_DIR=${CURR_DIR}/plots
+
+# Config file
+CONFIG_FILE=${CURR_DIR}/config.py
+
+# FIle where results will be saved
+RESULTS_FILE=${CURR_DIR}/results_uncorrelated.pickle
+
+# Add Icarus code to PYTHONPATH
+export PYTHONPATH=${ICARUS_DIR}:$PYTHONPATH
+
+# Run experiments
+echo "Run experiments"
+Run experiments
+python ${ICARUS_DIR}/icarus.py --results ${RESULTS_FILE} ${CONFIG_FILE}
+[12:02:26 2019-01-29|INFO|main] Launching orchestrator
+[12:02:26 2019-01-29|INFO|orchestration] Starting simulations: 1 experiments, 10 process(es)
+[12:02:26 2019-01-29|INFO|runner-PoolWorker-1] Experiment 1/1 | Preparing scenario: strategy: HYBRID
+[12:02:26 2019-01-29|INFO|runner-PoolWorker-1] Experiment 1/1 | Start simulation
+[12:02:26 2019-01-29|WARNING|orchestration] Some content caches have size equal to 0. I am setting them to 1 and run the experiment anyway
+[12:02:26 2019-01-29|ERROR|runner-PoolWorker-1] Experiment 1/1 | Failed | AttributeError: 'ComputationSpot' object has no attribute 'numberOfInstances'
+Traceback (most recent call last):
+  File "/space/onur/icarus_edge_comp_new/icarus/orchestration.py", line 284, in run_scenario
+    results = exec_experiment(topology, workload, netconf, strategy, cache_policy, collectors, warmup_strategy, sched_policy)
+  File "/space/onur/icarus_edge_comp_new/icarus/execution/engine.py", line 66, in exec_experiment
+    strategy_inst.process_event(time, **event)
+  File "/space/onur/icarus_edge_comp_new/icarus/models/strategy/service.py", line 560, in process_event
+    if self.view.has_service(node, service):
+  File "/space/onur/icarus_edge_comp_new/icarus/execution/network.py", line 388, in has_service
+    elif cs.numberOfInstances[service] > 0:
+AttributeError: 'ComputationSpot' object has no attribute 'numberOfInstances'
+
+Edge between 0 and 1 delay: 0.06
+Edge between 0 and 2 delay: 0.06
+Edge between 1 and 3 delay: 0.02
+Edge between 1 and 4 delay: 0.02
+Edge between 2 and 5 delay: 0.02
+Edge between 2 and 6 delay: 0.02
+Edge between 3 and 8 delay: 0.02
+Edge between 3 and 7 delay: 0.02
+Edge between 4 and 10 delay: 0.02
+Edge between 4 and 9 delay: 0.02
+Edge between 5 and 11 delay: 0.02
+Edge between 5 and 12 delay: 0.02
+Edge between 6 and 13 delay: 0.02
+Edge between 6 and 14 delay: 0.02
+Depth of 0 is 0
+Depth of 1 is 1
+Depth of 2 is 1
+Depth of 3 is 2
+Depth of 4 is 2
+Depth of 5 is 2
+Depth of 6 is 2
+Depth of 7 is 3
+Depth of 8 is 3
+Depth of 9 is 3
+Depth of 10 is 3
+Depth of 11 is 3
+Depth of 12 is 3
+Depth of 13 is 3
+Depth of 14 is 3
+The number of sources: 1
+The number of receivers: 8
+Computation budget: 750
+Service budget: 5.0
+Number of VMs @node: 0 0
+Number of cores @node: 0 50
+Number of VMs @node: 1 0
+Number of cores @node: 1 50
+Number of VMs @node: 2 0
+Number of cores @node: 2 50
+Number of VMs @node: 3 0
+Number of cores @node: 3 50
+Number of VMs @node: 4 0
+Number of cores @node: 4 50
+Number of VMs @node: 5 0
+Number of cores @node: 5 50
+Number of VMs @node: 6 0
+Number of cores @node: 6 50
+Number of VMs @node: 7 0
+Number of cores @node: 7 50
+Number of VMs @node: 8 0
+Number of cores @node: 8 50
+Number of VMs @node: 9 0
+Number of cores @node: 9 50
+Number of VMs @node: 10 0
+Number of cores @node: 10 50
+Number of VMs @node: 11 0
+Number of cores @node: 11 50
+Number of VMs @node: 12 0
+Number of cores @node: 12 50
+Number of VMs @node: 13 0
+Number of cores @node: 13 50
+Number of VMs @node: 14 0
+Number of cores @node: 14 50
+Number of VMs @node: 'src_0' 10
+Number of cores @node: 'src_0' 10
+[12:02:31 2019-01-29|INFO|orchestration] END | Planned: 1, Completed: 1, Succeeded: 0, Failed: 1
+[12:02:31 2019-01-29|INFO|main] Orchestrator finished
+[12:02:31 2019-01-29|INFO|main] Saved results to file /space/onur/icarus_edge_comp_new/examples/servicenet/results_uncorrelated.pickle
+
+# Plot results
+echo "Plot results"
+Plot results
+#python ${CURR_DIR}/plotresults.py --results ${RESULTS_FILE} --output ${PLOTS_DIR} ${CONFIG_FILE}

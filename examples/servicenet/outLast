@@ -1,0 +1,807 @@
+Run experiments
+Plot results
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 60.0
+	n_measured 18000.0
+	alpha 0.75
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 100
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 10.0
+	name NDN
+	load_balance_distance 1
+	wndw_size 10
+	n_chunks 100
+ content_placement
+	name UNIFORM
+	n_chunks 100
+ cache_placement
+	network_cache 1.0
+	cache_budget 200
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 10.0
+	n_chunks 100
+	load_balance_distance 1
+	wndw_size 10
+	name NDN
+ desc strategy: NDN buffer size 10
+RESULTS:
+
+ VIDEO_PLAYBACK
+	BUFFER_RATIO 0.0699444444444
+	CACHE_HIT_RATIO 0.758335798845
+	OVERHEAD 3.07178066805
+	BUFFERING_PER_CONTENT
+		1 32
+		2 3
+		3 18
+		4 36
+		5 80
+		7 7
+		8 14
+		9 15
+		10 20
+		11 22
+		12 14
+		13 10
+		14 17
+		15 4
+		16 14
+		17 32
+		18 15
+		19 4
+		20 5
+		21 24
+		22 16
+		23 28
+		24 12
+		25 7
+		26 22
+		27 6
+		28 1
+		29 65
+		30 33
+		31 25
+		32 10
+		33 38
+		34 1
+		35 7
+		36 27
+		37 25
+		38 26
+		39 8
+		40 15
+		41 44
+		42 3
+		43 10
+		44 21
+		45 14
+		46 9
+		47 4
+		48 7
+		49 4
+		50 4
+		51 7
+		52 1
+		53 15
+		54 3
+		55 6
+		56 5
+		57 15
+		58 4
+		59 1
+		60 2
+		61 16
+		62 15
+		63 12
+		64 21
+		66 19
+		67 19
+		68 2
+		69 5
+		70 1
+		71 4
+		73 2
+		74 15
+		75 6
+		76 5
+		77 7
+		78 1
+		79 15
+		80 4
+		81 6
+		82 8
+		83 7
+		84 4
+		85 1
+		86 21
+		87 18
+		88 5
+		89 6
+		90 6
+		91 7
+		92 37
+		94 3
+		96 1
+		98 16
+		99 7
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 60.0
+	n_measured 18000.0
+	alpha 0.75
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 100
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 10.0
+	name NDN
+	load_balance_distance 1
+	wndw_size 20
+	n_chunks 100
+ content_placement
+	name UNIFORM
+	n_chunks 100
+ cache_placement
+	network_cache 1.0
+	cache_budget 200
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 10.0
+	n_chunks 100
+	load_balance_distance 1
+	wndw_size 20
+	name NDN
+ desc strategy: NDN buffer size 20
+RESULTS:
+
+ VIDEO_PLAYBACK
+	BUFFER_RATIO 0.0187222222222
+	CACHE_HIT_RATIO 0.772309899171
+	OVERHEAD 3.01608153076
+	BUFFERING_PER_CONTENT
+		3 4
+		4 2
+		5 17
+		9 3
+		10 6
+		11 4
+		13 12
+		14 3
+		15 16
+		17 5
+		19 1
+		20 4
+		21 10
+		22 10
+		23 6
+		24 5
+		25 1
+		28 8
+		29 60
+		30 8
+		31 7
+		32 2
+		33 9
+		36 4
+		37 2
+		39 1
+		40 9
+		41 2
+		43 13
+		45 1
+		46 2
+		47 3
+		48 2
+		49 1
+		50 9
+		51 2
+		55 4
+		56 4
+		57 6
+		59 2
+		61 8
+		64 7
+		67 10
+		69 2
+		70 5
+		71 1
+		72 3
+		79 1
+		80 5
+		81 3
+		82 2
+		84 3
+		85 3
+		91 2
+		93 2
+		95 4
+		97 1
+		99 5
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 60.0
+	n_measured 18000.0
+	alpha 0.75
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 100
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_chunks 100
+	playback_rate 10
+	name OPTIMAL
+	wndw_size 10
+ content_placement
+	name UNIFORM
+	n_chunks 100
+ cache_placement
+	network_cache 1.0
+	cache_budget 200
+	name EDGE
+ warmup_strategy
+	wndw_size 10
+	playback_rate 10
+	name OPTIMAL
+	n_chunks 100
+ desc strategy: OPTIMAL buffer size 10
+RESULTS:
+
+ VIDEO_PLAYBACK
+	BUFFER_RATIO 0.00211111111111
+	CACHE_HIT_RATIO 0.990583888889
+	OVERHEAD 3.47195111111
+	BUFFERING_PER_CONTENT
+		1 1
+		2 2
+		3 7
+		4 7
+		5 4
+		6 4
+		7 4
+		8 3
+		11 1
+		50 1
+		84 1
+		89 1
+		92 1
+		36 1
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 60.0
+	n_measured 18000.0
+	alpha 0.75
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 100
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_chunks 100
+	playback_rate 10
+	name OPTIMAL
+	wndw_size 20
+ content_placement
+	name UNIFORM
+	n_chunks 100
+ cache_placement
+	network_cache 1.0
+	cache_budget 200
+	name EDGE
+ warmup_strategy
+	wndw_size 20
+	playback_rate 10
+	name OPTIMAL
+	n_chunks 100
+ desc strategy: OPTIMAL buffer size 20
+RESULTS:
+
+ VIDEO_PLAYBACK
+	BUFFER_RATIO 0.000333333333333
+	CACHE_HIT_RATIO 0.991006666667
+	OVERHEAD 3.91278777778
+	BUFFERING_PER_CONTENT
+		1 1
+		2 1
+		4 2
+		29 1
+		23 1
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 60.0
+	n_measured 18000.0
+	alpha 0.75
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 100
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 10.0
+	name IPFS
+	wndw_size 20
+	n_chunks 100
+ content_placement
+	name UNIFORM
+	n_chunks 100
+ cache_placement
+	network_cache 1.0
+	cache_budget 200
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 10.0
+	name IPFS
+	wndw_size 20
+	n_chunks 100
+ desc strategy: IPFS buffer size 20
+RESULTS:
+
+ VIDEO_PLAYBACK
+	BUFFER_RATIO 0.143222222222
+	CACHE_HIT_RATIO 0.183653213152
+	OVERHEAD 6.6191602112
+	BUFFERING_PER_CONTENT
+		1 453
+		2 465
+		3 413
+		4 114
+		5 281
+		6 141
+		7 144
+		8 27
+		9 69
+		10 31
+		11 28
+		12 10
+		13 52
+		14 27
+		15 10
+		16 6
+		17 23
+		18 4
+		19 13
+		20 33
+		23 6
+		24 10
+		25 1
+		26 15
+		29 26
+		30 17
+		31 3
+		32 4
+		33 14
+		35 3
+		36 10
+		41 2
+		42 5
+		43 3
+		45 10
+		47 7
+		48 6
+		49 7
+		50 7
+		51 2
+		57 7
+		59 1
+		61 4
+		64 7
+		67 2
+		68 1
+		69 9
+		70 13
+		72 1
+		73 3
+		78 2
+		79 7
+		82 2
+		87 5
+		88 1
+		90 7
+		92 3
+		97 1
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 60.0
+	n_measured 18000.0
+	alpha 0.75
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 100
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 10.0
+	name IPFS
+	wndw_size 10
+	n_chunks 100
+ content_placement
+	name UNIFORM
+	n_chunks 100
+ cache_placement
+	network_cache 1.0
+	cache_budget 200
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 10.0
+	name IPFS
+	wndw_size 10
+	n_chunks 100
+ desc strategy: IPFS buffer size 10
+RESULTS:
+
+ VIDEO_PLAYBACK
+	BUFFER_RATIO 0.107333333333
+	CACHE_HIT_RATIO 0.130656943663
+	OVERHEAD 6.60237159834
+	BUFFERING_PER_CONTENT
+		1 421
+		2 516
+		3 159
+		4 269
+		5 68
+		6 37
+		7 62
+		8 65
+		9 29
+		10 29
+		11 10
+		12 8
+		13 21
+		14 13
+		15 8
+		18 2
+		19 5
+		20 63
+		21 4
+		22 5
+		23 3
+		24 1
+		29 28
+		30 33
+		32 5
+		41 11
+		42 4
+		43 7
+		44 2
+		48 3
+		49 8
+		50 2
+		51 7
+		59 1
+		70 5
+		71 3
+		72 3
+		75 3
+		76 3
+		78 3
+		82 2
+		86 1
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 60.0
+	n_measured 18000.0
+	alpha 0.75
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 100
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 10.0
+	name NDN_MEASUREMENT
+	wndw_size 10
+	n_chunks 100
+ content_placement
+	name UNIFORM
+	n_chunks 100
+ cache_placement
+	network_cache 1.0
+	cache_budget 200
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 10.0
+	name NDN_MEASUREMENT
+	wndw_size 10
+	n_chunks 100
+ desc strategy: NDN_MEASUREMENT buffer size 10
+RESULTS:
+
+ VIDEO_PLAYBACK
+	BUFFER_RATIO 0.191333333333
+	CACHE_HIT_RATIO 0.69201
+	OVERHEAD 6.20056666667
+	BUFFERING_PER_CONTENT
+		1 272
+		2 261
+		3 203
+		4 161
+		5 138
+		6 83
+		7 178
+		8 199
+		9 172
+		10 46
+		11 131
+		12 147
+		13 78
+		14 66
+		15 72
+		16 92
+		17 57
+		18 25
+		19 79
+		20 33
+		21 6
+		22 75
+		23 15
+		24 29
+		25 54
+		26 60
+		27 23
+		28 17
+		29 22
+		30 46
+		31 37
+		32 25
+		33 13
+		34 29
+		35 42
+		37 6
+		38 12
+		39 2
+		40 6
+		41 2
+		42 18
+		43 16
+		44 7
+		45 42
+		46 22
+		47 4
+		48 19
+		49 2
+		50 2
+		51 7
+		52 5
+		53 4
+		54 1
+		55 5
+		56 9
+		57 5
+		58 31
+		59 9
+		60 18
+		61 9
+		62 8
+		64 22
+		65 6
+		66 10
+		67 16
+		68 4
+		69 8
+		71 4
+		74 3
+		75 8
+		77 4
+		78 16
+		79 2
+		81 14
+		82 1
+		83 1
+		84 5
+		85 5
+		87 18
+		88 2
+		89 2
+		90 2
+		92 2
+		93 9
+		95 10
+		97 6
+		99 7
+PARAMETERS:
+
+ computation_placement
+	service_budget 1
+	name EDGE
+	computation_budget 1
+ workload
+	n_contents 100
+	playback_rate 10
+	n_warmup 0
+	name STATIONARY
+	rate 60.0
+	n_measured 18000.0
+	alpha 0.75
+	n_services 1
+	seed 0
+	wndw_size 10
+	n_chunks 100
+ sched_policy
+	name EDF
+ cache_policy
+	name LRU
+ topology
+	nrecv_per_edge 10
+	name TISCALI
+ strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 10.0
+	name NDN_MEASUREMENT
+	wndw_size 20
+	n_chunks 100
+ content_placement
+	name UNIFORM
+	n_chunks 100
+ cache_placement
+	network_cache 1.0
+	cache_budget 200
+	name EDGE
+ warmup_strategy
+	n_contents 100
+	playback_rate 10
+	advertisement_period 10.0
+	name NDN_MEASUREMENT
+	wndw_size 20
+	n_chunks 100
+ desc strategy: NDN_MEASUREMENT buffer size 20
+RESULTS:
+
+ VIDEO_PLAYBACK
+	BUFFER_RATIO 0.0075
+	CACHE_HIT_RATIO 0.708106666667
+	OVERHEAD 6.15735944444
+	BUFFERING_PER_CONTENT
+		1 12
+		2 2
+		3 11
+		4 27
+		37 1
+		6 13
+		7 3
+		9 10
+		11 2
+		13 4
+		15 17
+		80 5
+		17 2
+		88 3
+		25 7
+		90 2
+		27 5
+		28 4
+		30 4
+		16 1

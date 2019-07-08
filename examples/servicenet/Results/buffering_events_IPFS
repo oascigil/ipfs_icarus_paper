@@ -1,0 +1,8 @@
+# Number of playback interruptions.
+#
+# Zipf Number_of_Interruptions
+0.1	0.0400666666667
+0.25	0.0469333333333
+0.5	0.0678
+0.75	0.0751333333333
+1.0	0.0772666666667
